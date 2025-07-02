@@ -1,0 +1,30 @@
+---
+layout: base.njk
+title: arXiv論文解説
+eleventyNavigation:
+  key: Home
+  order: 1
+---
+
+<div class="hero">
+    <h2 class="hero-title">arXiv論文解説</h2>
+    <p class="hero-description">arXivのAI・機械学習分野からピックアップした論文を解説します</p>
+</div>
+
+<section class="papers-section">
+    <div class="container">
+        <h2 class="section-title">最新の解説</h2>
+        
+        <div class="paper-list">
+            {%- for paper in papers.papers -%}
+                {%- if loop.index0 < 5 -%}
+                    {% include "components/paper-card.njk" %}
+                {%- endif -%}
+            {%- endfor -%}
+        </div>
+        
+        <div class="more-papers">
+            <a href="{{ '/archive/' | url }}" class="btn btn-primary btn-large">もっと読む →</a>
+        </div>
+    </div>
+</section>

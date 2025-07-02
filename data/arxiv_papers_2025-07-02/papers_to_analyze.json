@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2506.24119v2",
+    "base_id": "2506.24119",
+    "tex_source_url": "https://arxiv.org/src/2506.24119",
+    "title": "SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "ゼロサムゲームでの自己対戦を通じて推論能力を向上させる革新的なマルチエージェント強化学習手法。LLMの推論能力向上に大きな影響を与える可能性がある"
+  },
+  {
+    "id": "2506.24125v1",
+    "base_id": "2506.24125",
+    "tex_source_url": "https://arxiv.org/src/2506.24125",
+    "title": "FADRM: Fast and Accurate Data Residual Matching for Dataset Distillation",
+    "categories": ["cs.LG"],
+    "selection_reason": "データセット蒸留の計算効率を大幅に改善する実用的な手法。大規模モデルの効率的な学習に直接応用可能"
+  },
+  {
+    "id": "2506.24113v1",
+    "base_id": "2506.24113",
+    "tex_source_url": "https://arxiv.org/src/2506.24113",
+    "title": "Epona: Autoregressive Diffusion World Model for Autonomous Driving",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "自動運転のための新しい世界モデルアプローチ。拡散モデルと自己回帰モデルを組み合わせた実用性の高い研究"
+  },
+  {
+    "id": "2506.24120v1",
+    "base_id": "2506.24120",
+    "tex_source_url": "https://arxiv.org/src/2506.24120",
+    "title": "Data Uniformity Improves Training Efficiency and More, with a Convergence Framework Beyond the NTK Regime",
+    "categories": ["cs.LG"],
+    "selection_reason": "NTK理論を超えた収束フレームワークでデータ均一性の重要性を理論的に解明。学習効率向上の基礎理論として影響力が高い"
+  }
+]

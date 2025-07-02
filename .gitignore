@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Cache
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# Analysis data (コメントアウトしてコミット可能に)
+# data/analysis_*
+
+# Generated content
+src/trends/
+src/_data/trends.json
+src/papers
+src/_data/papers.json
+
+# Temporary files
+.claude/
+CLAUDE.md

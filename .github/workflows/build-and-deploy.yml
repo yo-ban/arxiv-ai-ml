@@ -1,0 +1,65 @@
+name: Build and Deploy Site
+
+on:
+  # 手動実行
+  workflow_dispatch:
+  
+  # mainブランチへのプッシュ時
+  push:
+    branches:
+      - main
+    paths:
+      # 解析結果が更新された時
+      - 'data/analysis_*/**'
+      # サイトのソースが更新された時
+      - 'src/**'
+      - 'scripts/**'
+      - 'package.json'
+      - '.eleventy.js'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: チェックアウト
+      uses: actions/checkout@v4
+    
+    - name: Node.js セットアップ
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: 依存関係インストール
+      run: npm ci
+    
+    - name: サイトビルド
+      run: |
+        # dataディレクトリの解析結果を使用してデータ生成
+        node scripts/generate-site-data.js
+        # 11tyでビルド
+        npx eleventy 
+    
+    - name: GitHub Pages アーティファクトアップロード
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: dist
+    
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+    - name: GitHub Pages デプロイ
+      id: deployment
+      uses: actions/deploy-pages@v4

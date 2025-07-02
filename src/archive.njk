@@ -1,0 +1,93 @@
+---
+layout: base.njk
+title: アーカイブ
+eleventyNavigation:
+  key: Archive
+  order: 2
+pagination:
+  data: papers.papers
+  size: 10
+  alias: paginatedPapers
+permalink: "archive/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
+
+<div class="page-header">
+    <h2 class="page-title">アーカイブ</h2>
+    <p class="page-description">過去に解説したarXiv論文の一覧</p>
+</div>
+
+<section class="archive-section">
+    <div class="container">
+        <div class="archive-paper-list">
+            <h3 class="section-title">解説一覧</h3>
+            <div class="pagination-info">
+                {%- set rangeStart = (pagination.pageNumber * pagination.size) + 1 -%}
+                {%- set rangeEnd = (pagination.pageNumber + 1) * pagination.size -%}
+                {%- if rangeEnd > papers.totalCount -%}
+                    {%- set rangeEnd = papers.totalCount -%}
+                {%- endif -%}
+                <p>全{{ papers.totalCount }}件中 {{ rangeStart }}-{{ rangeEnd }}件を表示</p>
+            </div>
+            <div class="paper-entries">
+                {%- for paper in paginatedPapers -%}
+                    <div class="archive-paper-item">
+                        <a href="{{ ('/papers/' + paper.id + '/') | url }}" class="archive-paper-link">
+                            <h4 class="archive-paper-title">{{ paper.title }}</h4>
+                            <div class="archive-paper-meta">
+                                <span class="archive-arxiv-id">{{ paper.arxivId }}</span>
+                                <span class="archive-separator">•</span>
+                                <span class="archive-date">{{ paper.date }}</span>
+                                <span class="archive-separator">•</span>
+                                <span class="archive-categories">
+                                    {%- for category in paper.categories -%}
+                                        {{ category }}{%- if not loop.last -%}, {% endif -%}
+                                    {%- endfor -%}
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                {%- endfor -%}
+            </div>
+            
+            {%- if pagination.pageLinks.length > 1 -%}
+            <nav class="pagination" aria-label="ページネーション">
+                <ul class="pagination-list">
+                    {%- if pagination.previousPageLink -%}
+                        <li class="pagination-item">
+                            <a href="{{ pagination.previousPageHref | url }}" class="pagination-link prev">← 前へ</a>
+                        </li>
+                    {%- endif -%}
+                    
+                    {%- for pageLink in pagination.pageLinks -%}
+                        <li class="pagination-item">
+                            {%- if page.url == pageLink.href -%}
+                                <span class="pagination-link current" aria-current="page">{{ loop.index }}</span>
+                            {%- else -%}
+                                <a href="{{ pageLink.href | url }}" class="pagination-link">{{ loop.index }}</a>
+                            {%- endif -%}
+                        </li>
+                    {%- endfor -%}
+                    
+                    {%- if pagination.nextPageLink -%}
+                        <li class="pagination-item">
+                            <a href="{{ pagination.nextPageHref | url }}" class="pagination-link next">次へ →</a>
+                        </li>
+                    {%- endif -%}
+                </ul>
+            </nav>
+            {%- endif -%}
+        </div>
+        
+        <aside class="archive-sidebar">
+            <h3 class="sidebar-title">カテゴリ別統計</h3>
+            <ul class="category-stats-list">
+                {%- for category, count in papers.categoryStats -%}
+                    <li class="category-stat-item">
+                        <span class="category-name">{{ category }}</span>
+                        <span class="category-count">{{ count }}件</span>
+                    </li>
+                {%- endfor -%}
+            </ul>
+        </aside>
+    </div>
+</section>

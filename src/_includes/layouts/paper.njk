@@ -1,0 +1,62 @@
+---
+layout: base.njk
+---
+
+<article class="paper-detail">
+    <header class="paper-header">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="{{ '/' | url }}">トップ</a> / 
+                <span>{{ paper.title | truncate(50) }}</span>
+            </nav>
+            <h2 class="paper-title">{{ paper.title }}</h2>
+            <div class="paper-meta-detail">
+                <div class="meta-group">
+                    <span class="meta-label">著者</span>
+                    <span class="meta-value">{{ paper.authors }}</span>
+                </div>
+                <div class="meta-group">
+                    <span class="meta-label">所属</span>
+                    <span class="meta-value">{{ paper.affiliations }}</span>
+                </div>
+                <div class="meta-group">
+                    <span class="meta-label">投稿日</span>
+                    <span class="meta-value">{{ paper.submittedDate }}</span>
+                </div>
+                <div class="meta-group">
+                    <span class="meta-label">カテゴリ</span>
+                    <span class="meta-value">
+                        {%- for category in paper.categories -%}
+                            <span class="category-tag">{{ category }}</span>
+                            {%- if not loop.last -%}, {% endif -%}
+                        {%- endfor -%}
+                    </span>
+                </div>
+                <div class="meta-group">
+                    <span class="meta-label">arXiv</span>
+                    <span class="meta-value">
+                        <a href="{{ paper.arxivUrl }}" target="_blank" rel="noopener" class="arxiv-link">
+                            {{ paper.arxivId }} <span class="external-link-icon">↗</span>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="paper-body">
+        <div class="container">
+            <div class="paper-content">
+                {{ content | safe }}
+            </div>
+        </div>
+    </div>
+
+    <footer class="paper-footer">
+        <div class="container">
+            <nav class="paper-nav">
+                <a href="{{ '/' | url }}" class="nav-back">← トップへ戻る</a>
+            </nav>
+        </div>
+    </footer>
+</article>

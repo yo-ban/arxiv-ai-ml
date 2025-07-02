@@ -1,0 +1,22 @@
+<article class="paper-card">
+    <div class="paper-content">
+        <h3 class="paper-title">
+            <a href="{{ ('/papers/' + paper.id + '/') | url }}">{{ paper.title }}</a>
+        </h3>
+        <div class="paper-meta">
+            <span class="paper-arxiv-id">📄 {{ paper.arxivId }}</span>
+            <span class="paper-categories">
+                {%- for category in paper.categories -%}
+                    <span class="category-tag">{{ category }}</span>
+                    {%- if not loop.last -%} {% endif -%}
+                {%- endfor -%}
+            </span>
+        </div>
+        <div class="paper-authors">{{ paper.authors | truncate(120) }}</div>
+        <p class="paper-summary">{{ paper.summary | truncate(200) }}</p>
+        <div class="paper-actions">
+            <a href="{{ ('/papers/' + paper.id + '/') | url }}" class="btn btn-primary">詳細を読む →</a>
+            <a href="{{ paper.arxivUrl }}" target="_blank" rel="noopener" class="btn btn-secondary">arXiv</a>
+        </div>
+    </div>
+</article>
