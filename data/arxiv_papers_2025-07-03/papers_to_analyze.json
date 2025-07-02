@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2506.24124v2",
+    "base_id": "2506.24124",
+    "tex_source_url": "https://arxiv.org/src/2506.24124",
+    "title": "Teaching Time Series to See and Speak: Forecasting with Aligned Visual and Textual Perspectives",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "時系列予測において視覚と言語を統合する革新的なアプローチ。マルチモーダル学習の実用的応用例として価値が高い"
+  },
+  {
+    "id": "2506.24102v1",
+    "base_id": "2506.24102",
+    "tex_source_url": "https://arxiv.org/src/2506.24102",
+    "title": "DenseWorld-1M: Towards Detailed Dense Grounded Caption in the Real World",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "100万件規模の詳細なキャプション付きデータセット。実世界での密なキャプション生成の基盤となる重要な貢献"
+  },
+  {
+    "id": "2506.24108v1",
+    "base_id": "2506.24108",
+    "tex_source_url": "https://arxiv.org/src/2506.24108",
+    "title": "Navigating with Annealing Guidance Scale in Diffusion Space",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "拡散モデルのガイダンススケールを動的に調整する新手法。生成品質の向上に実用的な影響を与える可能性"
+  },
+  {
+    "id": "2506.24106v1",
+    "base_id": "2506.24106",
+    "tex_source_url": "https://arxiv.org/src/2506.24106",
+    "title": "On the Predictive Power of Representation Dispersion in Language Models",
+    "categories": ["cs.CL", "cs.LG"],
+    "selection_reason": "言語モデルの表現分散が予測力に与える影響を分析。モデルの理解と改善に理論的洞察を提供"
+  }
+]
