@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.01961v1",
+    "base_id": "2507.01961",
+    "tex_source_url": "https://arxiv.org/src/2507.01961",
+    "title": "AC-DiT: Adaptive Coordination Diffusion Transformer for Mobile Manipulation",
+    "categories": ["cs.RO", "cs.AI"],
+    "selection_reason": "モバイルマニピュレーションにDiffusion Transformerを適用した実用的な研究。ロボティクス分野での応用可能性が高い"
+  },
+  {
+    "id": "2507.01951v1",
+    "base_id": "2507.01951",
+    "tex_source_url": "https://arxiv.org/src/2507.01951",
+    "title": "Test-Time Scaling with Reflective Generative Model",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "反射的生成モデルによるテスト時スケーリングの新手法。生成モデルの効率化に関する重要な研究"
+  },
+  {
+    "id": "2507.01957v1",
+    "base_id": "2507.01957",
+    "tex_source_url": "https://arxiv.org/src/2507.01957",
+    "title": "Locality-aware Parallel Decoding for Efficient Autoregressive Image Generation",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "局所性を考慮した並列デコーディングで画像生成を高速化。実用的な効率改善手法"
+  },
+  {
+    "id": "2507.01945v1",
+    "base_id": "2507.01945",
+    "tex_source_url": "https://arxiv.org/src/2507.01945",
+    "title": "LongAnimation: Long Animation Generation with Dynamic Global-Local Memory",
+    "categories": ["cs.CV", "cs.GR"],
+    "selection_reason": "動的グローバル・ローカルメモリによる長時間アニメーション生成。アニメーション分野の新しいアプローチ"
+  }
+]
