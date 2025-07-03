@@ -10,7 +10,7 @@ on:
       - main
     paths:
       # 解析結果が更新された時
-      - 'data/analysis_*/**'
+      - 'data/arxiv_papers_*/**'
       # サイトのソースが更新された時
       - 'src/**'
       - 'scripts/**'
