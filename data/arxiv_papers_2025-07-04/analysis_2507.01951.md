@@ -2,14 +2,10 @@
 
 ## 基本情報
 - arXiv ID: 2507.01951v1 (https://arxiv.org/abs/2507.01951)
-- 著者:
-  - Zixiao Wang、Yuxin Wang、Xiaorui Wang
-  - Mengting Xing、Jie Gao、Jianjun Xu
-  - Guangcan Liu、Chenhui Jin、Zhuo Wang
-  - Shengzhuo Zhang、Hongtao Xie
+- 著者: Zixiao Wang、Yuxin Wang、Xiaorui Wang、Mengting Xing、Jie Gao、Jianjun Xu、Guangcan Liu、Chenhui Jin、Zhuo Wang、Shengzhuo Zhang、Hongtao Xie
 - 所属: MetaStone-AI、USTC (University of Science and Technology of China)
 - 投稿日: 2025年7月2日
-- カテゴリ: cs.LG (Machine Learning)
+- カテゴリ: cs.LG
 
 ## 簡単に説明すると
 この論文は、OpenAI o3と同等の性能を持つ言語モデル「MetaStone-S1」を提案しています。

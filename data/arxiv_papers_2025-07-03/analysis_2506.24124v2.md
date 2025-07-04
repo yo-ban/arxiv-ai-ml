@@ -5,7 +5,7 @@
 - 著者: Sixun Dong, Wei Fan, Teresa Wu, Yanjie Fu
 - 所属: Arizona State University, University of Oxford
 - 投稿日: 2025年6月（v2）
-- カテゴリ: cs.LG (Machine Learning), cs.AI (Artificial Intelligence)
+- カテゴリ: cs.LG, cs.AI
 
 ## 簡単に説明すると
 この論文は、時系列データを視覚的表現（画像）と言語的表現（テキスト）の両方に変換する新しいフレームワーク「TimesCLIP」を提案しています。

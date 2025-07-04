@@ -2,15 +2,11 @@
 
 ## 基本情報
 - arXiv ID: 2507.01961v1 (https://arxiv.org/abs/2507.01961)
-- 著者:
-  - Sixiang Chen、Jiaming Liu、Siyuan Qian
-  - Han Jiang、Lily Li、Renrui Zhang
-  - Zhuoyang Liu、Chenyang Gu、Chengkai Hou
-  - Pengwei Wang、Zhongyuan Wang、Shanghang Zhang
+- 著者: Sixiang Chen、Jiaming Liu、Siyuan Qian、Han Jiang、Lily Li、Renrui Zhang、Zhuoyang Liu、Chenyang Gu、Chengkai Hou、Pengwei Wang、Zhongyuan Wang、Shanghang Zhang
 - 所属: Peking University, Nanjing University, CUHK,
   Beijing Academy of Artificial Intelligence (BAAI)
 - 投稿日: 2025年7月2日
-- カテゴリ: cs.RO (Robotics)
+- カテゴリ: cs.RO
 
 ## 簡単に説明すると
 この論文は、移動ロボットが物を掴んだり運んだりする作業（モバイルマニピュレーション）を改善する新しいAIシステム「AC-DiT」を提案しています。

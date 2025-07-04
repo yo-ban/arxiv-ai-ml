@@ -45,7 +45,12 @@ async function generateSiteData() {
                 if (paperData) {
                     allPapers.push(paperData);
                     // 各論文の詳細ページを生成
-                    await generatePaperPage(paperData, siteRoot);
+                    try {
+                        await generatePaperPage(paperData, siteRoot);
+                    } catch (genError) {
+                        console.error(`ページ生成エラー (${file}):`, genError.message);
+                        console.error('Paper data:', JSON.stringify(paperData, null, 2));
+                    }
                 }
             }
             
@@ -74,17 +79,23 @@ function parsePaperMarkdown(content, filename, metadata, date) {
         paper.title = titleMatch[1];
     }
     
-    // arXiv IDを抽出
-    const arxivIdMatch = content.match(/arXiv ID: ([\w\.]+)/);
+    // arXiv IDを抽出（括弧内のURL形式にも対応）
+    const arxivIdMatch = content.match(/arXiv ID: ([\w\.]+)(?:\s*\(https:\/\/arxiv\.org\/abs\/([\w\.]+)\))?/);
     if (arxivIdMatch) {
         paper.arxivId = arxivIdMatch[1];
         paper.arxivUrl = `https://arxiv.org/abs/${arxivIdMatch[1]}`;
     }
     
-    // 著者を抽出
-    const authorsMatch = content.match(/著者: (.+)/);
+    // 著者を抽出（複数行対応）
+    const authorsMatch = content.match(/著者:\s*\n([\s\S]*?)(?=\n- 所属:|$)/m);
     if (authorsMatch) {
-        paper.authors = authorsMatch[1];
+        paper.authors = authorsMatch[1].trim().replace(/\s*\n\s*/g, ' ');
+    } else {
+        // 単一行の場合
+        const singleLineAuthorsMatch = content.match(/著者: (.+)/);
+        if (singleLineAuthorsMatch) {
+            paper.authors = singleLineAuthorsMatch[1];
+        }
     }
     
     // 所属を抽出
@@ -112,9 +123,21 @@ function parsePaperMarkdown(content, filename, metadata, date) {
     }
     
     // メタデータから選択理由を追加
-    const metaPaper = metadata.find(m => m.id === paper.id);
+    // バージョン番号の有無に対応するため、base_idでも検索
+    const baseId = paper.id.replace(/v\d+$/, '');
+    const metaPaper = metadata.find(m => {
+        // 完全一致をまず試す
+        if (m.id === paper.id) return true;
+        // base_idで比較
+        if (m.base_id === baseId) return true;
+        // ファイル名がバージョンなしで、メタデータがバージョンありの場合
+        if (m.id.startsWith(baseId) && m.id.match(/v\d+$/)) return true;
+        return false;
+    });
     if (metaPaper) {
         paper.selectionReason = metaPaper.selection_reason;
+        // メタデータのIDを使用してページを生成
+        paper.id = metaPaper.id;
     }
     
     return paper;
@@ -154,18 +177,18 @@ async function generatePaperPage(paper, siteRoot) {
     
     const content = `---
 layout: ${frontmatter.layout}
-title: "${frontmatter.title.replace(/"/g, '\\"')}"
+title: "${(frontmatter.title || '').replace(/"/g, '\\"')}"
 paper:
   id: "${frontmatter.paper.id}"
-  arxivId: "${frontmatter.paper.arxivId}"
-  arxivUrl: "${frontmatter.paper.arxivUrl}"
-  title: "${frontmatter.paper.title.replace(/"/g, '\\"')}"
-  authors: "${frontmatter.paper.authors.replace(/"/g, '\\"')}"
-  affiliations: "${frontmatter.paper.affiliations.replace(/"/g, '\\"')}"
-  submittedDate: "${frontmatter.paper.submittedDate}"
+  arxivId: "${frontmatter.paper.arxivId || ''}"
+  arxivUrl: "${frontmatter.paper.arxivUrl || ''}"
+  title: "${(frontmatter.paper.title || '').replace(/"/g, '\\"')}"
+  authors: "${(frontmatter.paper.authors || '').replace(/"/g, '\\"')}"
+  affiliations: "${(frontmatter.paper.affiliations || '').replace(/"/g, '\\"')}"
+  submittedDate: "${frontmatter.paper.submittedDate || ''}"
   categories:
 ${yamlCategories}
-  summary: "${frontmatter.paper.summary.replace(/"/g, '\\"').replace(/\n/g, '\\n')}"
+  summary: "${(frontmatter.paper.summary || '').replace(/"/g, '\\"').replace(/\n/g, '\\n')}"
   selectionReason: "${frontmatter.paper.selectionReason ? frontmatter.paper.selectionReason.replace(/"/g, '\\"') : ''}"
   date: "${frontmatter.paper.date}"
 tags:

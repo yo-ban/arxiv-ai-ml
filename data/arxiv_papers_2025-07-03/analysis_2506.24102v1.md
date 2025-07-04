@@ -5,7 +5,7 @@
 - 著者: Xiangtai Li, Tao Zhang, Yanwei Li 他13名
 - 所属: ByteDance Seed, Wuhan University, Peking University
 - 投稿日: 2025年6月
-- カテゴリ: cs.CV (Computer Vision and Pattern Recognition)
+- カテゴリ: cs.CV
 
 ## 簡単に説明すると
 この論文は、現実世界の複雑なシーンに対して詳細かつ高密度なグラウンディングされたキャプション（物体の位置情報付き説明文）を提供する初の大規模データセット「DenseWorld-1M」を提案しています。

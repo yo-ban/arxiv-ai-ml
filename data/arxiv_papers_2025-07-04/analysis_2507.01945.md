@@ -2,13 +2,10 @@
 
 ## 基本情報
 - arXiv ID: 2507.01945v1 (https://arxiv.org/abs/2507.01945)
-- 著者:
-  - Nan Chen、Mengqi Huang (University of Science and Technology of China)
-  - Yihao Meng (Hong Kong University of Science and Technology)
-  - Zhendong Mao† (University of Science and Technology of China)
+- 著者: Nan Chen、Mengqi Huang (University of Science and Technology of China)、Yihao Meng (Hong Kong University of Science and Technology)、Zhendong Mao† (University of Science and Technology of China)
 - 所属: University of Science and Technology of China、Hong Kong University of Science and Technology
 - 投稿日: 2025年7月2日
-- カテゴリ: cs.CV (Computer Vision and Pattern Recognition)
+- カテゴリ: cs.CV
 
 ## 簡単に説明すると
 この論文は、長期アニメーション（平均500フレーム）のカラー化を実現する新しいAIシステム「LongAnimation」を提案しています。

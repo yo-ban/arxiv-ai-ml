@@ -2,13 +2,10 @@
 
 ## 基本情報
 - arXiv ID: 2507.01957v1 (https://arxiv.org/abs/2507.01957)
-- 著者: 
-  - Zhuoyang Zhang、Luke J. Huang（共同筆頭著者）
-  - Chengyue Wu、Shang Yang、Kelly Peng
-  - Yao Lu、Song Han
+- 著者: Zhuoyang Zhang、Luke J. Huang（共同筆頭著者）、Chengyue Wu、Shang Yang、Kelly Peng、Yao Lu、Song Han
 - 所属: MIT、NVIDIA、First Intelligence
 - 投稿日: 2025年7月2日
-- カテゴリ: cs.CV (Computer Vision and Pattern Recognition)
+- カテゴリ: cs.CV
 
 ## 簡単に説明すると
 この論文は、画像を生成するAIの処理速度を3.4倍以上向上させる「Locality-aware Parallel Decoding (LPD)」という新しい手法を提案しています。
