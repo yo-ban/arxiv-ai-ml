@@ -1,6 +1,6 @@
-# arXiv論文解説サイト
+# arXiv論文紹介サイト
 
-arXivのAI・機械学習分野の論文を日本語で解説するWebサイトシステム
+arXivのAI・機械学習分野の論文を日本語で紹介するWebサイトシステム
 
 ## 🚀 クイックスタート
 
@@ -33,9 +33,9 @@ git push
 ```
 /                           # リポジトリルート
 ├── .github/workflows/      # GitHub Actions（自動デプロイ）
-├── data/                   # arXiv論文解説データ
+├── data/                   # arXiv論文紹介データ
 │   └── arxiv_papers_YYYY-MM-DD/
-│       ├── analysis_*.md   # 論文解説ファイル
+│       ├── analysis_*.md   # 論文紹介ファイル
 │       └── papers_to_analyze.json  # 論文メタデータ
 ├── src/                    # Webサイトソース
 │   ├── _data/             # グローバルデータ
@@ -49,7 +49,7 @@ git push
 
 ## 🔄 データ連携
 
-### 論文解説データを追加
+### 論文紹介データを追加
 
 ```bash
 # サイトリポジトリをクローン
@@ -125,7 +125,7 @@ npm run build
 - **CI/CD**: GitHub Actions
 - **スタイル**: アカデミックデザイン（深い青と緑のアクセント）
 - **機能**: 
-  - 最新論文解説の表示
+  - 最新論文紹介の表示
   - アーカイブ（ページネーション付き）
   - カテゴリ別統計
 

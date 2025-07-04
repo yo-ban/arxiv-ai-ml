@@ -5,26 +5,24 @@
 ### サイト構成
 
 ```
-/                                    # トップページ（最新トレンド）
-/archive/                           # アーカイブ一覧
-/trends/2025-06-27/                 # 日付別ページ
-/trends/2025-06-27/repo-name/       # リポジトリ詳細ページ
-/feed.xml                           # RSS/Atomフィード
+/                                    # トップページ（最新の論文一覧）
+/archive/                           # 過去の論文アーカイブ
+/papers/{paper-id}/                 # 論文詳細ページ
 ```
 
 ### データフロー
 
 ```
 [外部サーバー]
-    ↓ トレンド取得・解析
-    ↓ analysis_YYYY-MM-DD/ を生成
+    ↓ arXiv論文の選択・解析
+    ↓ analysis_*.md を生成
     ↓ 
 [GitHub - このリポジトリ]
-    ↓ data/analysis_YYYY-MM-DD/ に配置
+    ↓ data/arxiv_papers_YYYY-MM-DD/ に配置
     ↓ GitHub Actions トリガー
     ↓ 
 [11ty ビルド]
-    ↓ Markdown → JSON データ変換
+    ↓ Markdown → ページデータ変換
     ↓ テンプレート + データ → HTML生成
     ↓ 
 [GitHub Pages]
@@ -33,42 +31,57 @@
 
 ## データ形式
 
-### 入力データ（data/analysis_YYYY-MM-DD/）
+### 入力データ（data/arxiv_papers_YYYY-MM-DD/）
 
-詳細フォーマット（新）: analyze_github_repos.mdを参照
+#### papers_to_analyze.json
+選択された論文のメタデータ：
+```json
+[
+  {
+    "id": "2507.01945v1",
+    "base_id": "2507.01945",
+    "tex_source_url": "https://arxiv.org/src/2507.01945",
+    "title": "LongAnimation: Long Animation Generation...",
+    "categories": ["cs.CV", "cs.GR"],
+    "selection_reason": "動的グローバル・ローカルメモリによる..."
+  }
+]
+```
 
-主要セクション:
-- **基本情報**: リポジトリ名、言語、スター数、フォーク数、ライセンス等
-- **概要**: 一言で言うと、詳細説明、主な特徴
-- **インストール・セットアップ**: 前提条件、インストール手順、基本的な使い方
-- **技術スタック**: コア技術、開発ツール
-- **プロジェクト構造**: ディレクトリ構成、主要ファイル解説
-- **アーキテクチャ詳細**: 設計パターン、データフロー、コンポーネント関係
-- **APIリファレンス**: 主要なAPI/メソッド、設定オプション
-- **使用例・サンプルコード**: 基本例、応用例
-- **ドキュメント**: 公式ドキュメント、チュートリアル
-- **コミュニティ・エコシステム**: 関連プロジェクト、プラグイン
-- **パフォーマンス・制限事項**: 性能、既知の制限
-- **開発状況**: 最近の更新、ロードマップ
-- **なぜトレンドになっているか**: 技術的革新性、コミュニティの反応
-- **まとめ**: 向いている用途、代替案、総評
+#### analysis_*.md
+各論文の詳細解析結果：
+- **基本情報**: arXiv ID、著者、所属、投稿日、カテゴリ
+- **簡単に説明すると**: 一般向けの分かりやすい説明
+- **研究概要**: 背景と動機、主要な貢献
+- **提案手法**: 手法の概要、技術的詳細、新規性
+- **実験結果**: 実験設定、主要な結果、既存手法との比較
+- **実用性評価**: 実装の容易性、計算効率、応用可能性
+- **まとめと所感**: 論文の意義、今後の展望
 
-### 生成される中間データ（src/_data/trends.json）
+### 生成される中間データ（src/_data/papers.json）
 
 ```json
 {
-  "latestDate": "2025-06-27",
-  "latestTrends": [
+  "papers": [
     {
-      "rank": 1,
-      "name": "owner/repo-name",
-      "slug": "repo-name",
-      "stars": 15234,
-      "language": "TypeScript",
-      "summary": "Brief description..."
+      "id": "2507.01945v1",
+      "arxivId": "2507.01945v1",
+      "arxivUrl": "https://arxiv.org/abs/2507.01945v1",
+      "title": "LongAnimation: Long Animation Generation...",
+      "authors": "Nan Chen, Mengqi Huang, ...",
+      "categories": ["cs.CV", "cs.GR"],
+      "summary": "この論文は、長期アニメーション...",
+      "selectionReason": "動的グローバル・ローカルメモリ...",
+      "date": "2025-07-04"
     }
   ],
-  "recentDates": ["2025-06-27", "2025-06-26", ...]
+  "totalCount": 12,
+  "categoryStats": {
+    "cs.CV": 5,
+    "cs.LG": 4,
+    "cs.AI": 3
+  },
+  "lastUpdated": "2025-07-04T12:00:00.000Z"
 }
 ```
 
@@ -80,29 +93,35 @@
 _includes/
 ├── layouts/
 │   ├── base.njk     # 基本レイアウト（全ページ共通）
-│   ├── date.njk     # 日付別ページ用
-│   └── repo.njk     # リポジトリ詳細用
+│   └── paper.njk    # 論文詳細ページ用
 └── components/
     ├── header.njk   # ヘッダー
     ├── footer.njk   # フッター
-    └── repo-card.njk # リポジトリカード
+    └── paper-card.njk # 論文カード
 ```
 
-### カスタムフィルター
+### ページ生成
 
-- `dateFormat`: 日付を YYYY-MM-DD 形式に変換
-- `slugify`: URLセーフな文字列に変換
-- `numberFormat`: 数値をカンマ区切りに
+- `index.njk`: トップページ（最新6件の論文）
+- `archive.njk`: アーカイブページ（全論文一覧、ページネーション付き）
+- `papers/{paper-id}/index.md`: 各論文の詳細ページ
 
 ## データ処理の詳細
 
 ### generate-site-data.js の処理フロー
 
-1. `data/analysis_*` ディレクトリをスキャン
-2. 各 `repo_*.md` ファイルを解析
-3. 日付別のページデータを生成（`src/trends/YYYY-MM-DD/index.md`）
-4. リポジトリ詳細ページを生成（`src/trends/YYYY-MM-DD/repo-name/index.md`）
-5. グローバルデータを生成（`src/_data/trends.json`）
+1. `data/arxiv_papers_*` ディレクトリをスキャン
+2. 各 `analysis_*.md` ファイルを解析
+3. `papers_to_analyze.json` からメタデータを読み込み
+4. ファイル名とメタデータのID形式の違いを自動調整
+5. 論文詳細ページを生成（`src/papers/{paper-id}/index.md`）
+6. グローバルデータを生成（`src/_data/papers.json`）
+
+### ID形式の自動調整
+
+ファイル名とメタデータでバージョン番号の有無が異なる場合に対応：
+- ファイル名: `analysis_2507.01945.md` (バージョンなし)
+- メタデータ: `2507.01945v1` (バージョンあり)
 
 ## スタイリング
 
@@ -110,16 +129,17 @@ _includes/
 
 ```css
 :root {
-    --black: #000000;
-    --white: #ffffff;
-    --gray-dark: #1a1a1a;
-    --gray-medium: #666666;
-    --gray-light: #e5e5e5;
-    --gray-lighter: #f5f5f5;
+    --color-primary: #2563eb;
+    --color-secondary: #64748b;
+    --color-background: #ffffff;
+    --color-surface: #f8fafc;
+    --color-border: #e2e8f0;
+    --color-text: #1e293b;
+    --color-text-secondary: #64748b;
 }
 ```
 
-### レスポンシブブレークポイント
+### レスポンシブデザイン
 
 - モバイル: < 768px
 - タブレット: 768px - 1024px  
@@ -127,17 +147,17 @@ _includes/
 
 ## 拡張方法
 
-### 新しいページタイプの追加
+### 新しいカテゴリの追加
 
-1. `src/_includes/layouts/` に新しいレイアウトを作成
-2. `scripts/generate-site-data.js` でページ生成ロジックを追加
-3. 必要に応じて `.eleventy.js` にコレクションを追加
+1. 論文解析時にカテゴリを含める
+2. `paper-card.njk` でカテゴリ表示を更新
+3. 必要に応じてカテゴリ別フィルタを実装
 
-### 新しいデータソースの追加
+### 検索機能の追加
 
-1. `data/` に新しいディレクトリ構造を定義
-2. `scripts/generate-site-data.js` で解析ロジックを実装
-3. テンプレートでデータを参照
+1. `src/_data/papers.json` を検索インデックスとして使用
+2. クライアントサイドJavaScriptで検索を実装
+3. または、Algolia等の検索サービスと連携
 
 ## デバッグ
 
@@ -151,11 +171,30 @@ DEBUG=Eleventy* npm run build
 
 ```bash
 node scripts/generate-site-data.js
-# src/trends/ と src/_data/trends.json を確認
+# src/papers/ と src/_data/papers.json を確認
 ```
 
-### ローカルでGitHub Actions環境を再現
+### ローカル開発
 
 ```bash
-act -j build
+npm run dev
+# http://localhost:8080 で確認
 ```
+
+## 既知の問題と対処法
+
+### ファイル名とIDの不一致
+
+`generate-site-data.js` が自動的に以下を処理：
+- バージョン番号の有無の違い
+- base_idを使用した照合
+- メタデータのIDを優先使用
+
+### 複数行の著者情報
+
+Markdownファイルで著者が複数行にわたる場合も正しく抽出
+
+### エラーハンドリング
+
+- 各論文のページ生成でエラーが発生しても処理を継続
+- エラー詳細をコンソールに出力

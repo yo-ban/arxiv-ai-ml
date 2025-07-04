@@ -1,4 +1,4 @@
-// arXiv論文解説サイト - メインJavaScript
+// arXiv論文紹介サイト - メインJavaScript
 
 document.addEventListener('DOMContentLoaded', function() {
     // スムーススクロール

@@ -13,13 +13,13 @@ permalink: "archive/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber +
 
 <div class="page-header">
     <h2 class="page-title">アーカイブ</h2>
-    <p class="page-description">過去に解説したarXiv論文の一覧</p>
+    <p class="page-description">過去に紹介したarXiv論文の一覧</p>
 </div>
 
 <section class="archive-section">
     <div class="container">
         <div class="archive-paper-list">
-            <h3 class="section-title">解説一覧</h3>
+            <h3 class="section-title">過去記事一覧</h3>
             <div class="pagination-info">
                 {%- set rangeStart = (pagination.pageNumber * pagination.size) + 1 -%}
                 {%- set rangeEnd = (pagination.pageNumber + 1) * pagination.size -%}
