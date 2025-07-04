@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.02864v1",
+    "base_id": "2507.02864",
+    "tex_source_url": "https://arxiv.org/src/2507.02864",
+    "title": "MultiGen: Using Multimodal Generation in Simulation to Learn Multimodal Policies in Real",
+    "categories": ["cs.AI", "cs.LG", "cs.RO"],
+    "selection_reason": "実世界でのマルチモーダルポリシー学習という実用的なロボティクス課題に取り組む革新的アプローチ"
+  },
+  {
+    "id": "2507.02862v1",
+    "base_id": "2507.02862",
+    "tex_source_url": "https://arxiv.org/src/2507.02862",
+    "title": "RefTok: Reference-Based Tokenization for Video Generation",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "ビデオ生成における参照ベーストークン化という新規性の高い手法で、実用的な応用が期待できる"
+  },
+  {
+    "id": "2507.02860v1",
+    "base_id": "2507.02860",
+    "tex_source_url": "https://arxiv.org/src/2507.02860",
+    "title": "Less is Enough: Training-Free Video Diffusion Acceleration via Runtime-Adaptive Caching",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "訓練不要でビデオ拡散モデルを高速化する実用的な最適化手法で、即座に適用可能"
+  },
+  {
+    "id": "2507.02851v1",
+    "base_id": "2507.02851",
+    "tex_source_url": "https://arxiv.org/src/2507.02851",
+    "title": "MOTIF: Modular Thinking via Reinforcement Fine-tuning in LLMs",
+    "categories": ["cs.CL", "cs.AI", "cs.LG"],
+    "selection_reason": "LLMのモジュール型思考を強化学習で実現する新しいアプローチで、推論能力向上に貢献"
+  }
+]
