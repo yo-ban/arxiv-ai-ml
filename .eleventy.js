@@ -66,6 +66,14 @@ module.exports = function(eleventyConfig) {
     return new Date(dateStr).toISOString();
   });
 
+  // URLを結合（二重スラッシュを防ぐ）
+  eleventyConfig.addFilter("absoluteUrl", (path, base) => {
+    if (!base || !path) return '';
+    const cleanBase = base.replace(/\/$/, '');
+    const cleanPath = path.startsWith('/') ? path : '/' + path;
+    return cleanBase + cleanPath;
+  });
+
 
   // 論文コレクション
   eleventyConfig.addCollection("papersByCategory", function(collectionApi) {
