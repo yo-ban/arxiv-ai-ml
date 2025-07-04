@@ -53,6 +53,19 @@ module.exports = function(eleventyConfig) {
     return str.substring(0, length) + '...';
   });
 
+  // 配列の件数制限フィルター
+  eleventyConfig.addFilter("limit", (array, limit) => {
+    if (!array) return [];
+    return array.slice(0, limit);
+  });
+
+  // 日付をISO文字列に変換
+  eleventyConfig.addFilter("toISOString", (dateStr) => {
+    if (!dateStr) return new Date().toISOString();
+    if (dateStr === "now") return new Date().toISOString();
+    return new Date(dateStr).toISOString();
+  });
+
 
   // 論文コレクション
   eleventyConfig.addCollection("papersByCategory", function(collectionApi) {

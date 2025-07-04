@@ -1,0 +1,40 @@
+---
+permalink: feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ site.url }}">
+  <title>{{ site.title }}</title>
+  <subtitle>{{ site.description }}</subtitle>
+  <link href="{{ site.url }}{{ '/feed.xml' | url }}" rel="self"/>
+  <link href="{{ site.url }}{{ '/' | url }}"/>
+  <updated>{{ "now" | toISOString }}</updated>
+  <id>{{ site.url }}{{ '/' | url }}</id>
+  <author>
+    <name>{{ site.author }}</name>
+  </author>
+  {%- for paper in collections.paper | reverse | limit(20) %}
+  {%- set absolutePostUrl = site.url + paper.url %}
+  <entry>
+    <title>{{ paper.data.title or paper.data.paper.title }}</title>
+    <link href="{{ absolutePostUrl }}"/>
+    <updated>{{ paper.data.paper.date | toISOString }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type="html">
+      <![CDATA[
+        <h2>{{ paper.data.paper.title }}</h2>
+        <p><strong>arXiv ID:</strong> <a href="{{ paper.data.paper.arxivUrl }}">{{ paper.data.paper.arxivId }}</a></p>
+        <p><strong>著者:</strong> {{ paper.data.paper.authors }}</p>
+        <p><strong>カテゴリ:</strong> {{ paper.data.paper.categories | join(", ") }}</p>
+        <p><strong>選択理由:</strong> {{ paper.data.paper.selectionReason }}</p>
+        <h3>概要</h3>
+        <p>{{ paper.data.paper.summary | safe }}</p>
+        <p><a href="{{ absolutePostUrl }}">詳細を読む →</a></p>
+      ]]>
+    </content>
+    {%- for category in paper.data.paper.categories %}
+    <category term="{{ category }}"/>
+    {%- endfor %}
+  </entry>
+  {%- endfor %}
+</feed>
