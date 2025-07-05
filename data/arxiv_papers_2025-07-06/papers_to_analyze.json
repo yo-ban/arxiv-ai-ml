@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.02863v1",
+    "base_id": "2507.02863",
+    "tex_source_url": "https://arxiv.org/src/2507.02863",
+    "title": "Point3R: Streaming 3D Reconstruction with Explicit Spatial Pointer Memory",
+    "categories": ["cs.CV"],
+    "selection_reason": "画期的な空間ポインタメモリを用いたストリーミング3D再構築手法。リアルタイム性と精度の両立を実現"
+  },
+  {
+    "id": "2507.02861v1",
+    "base_id": "2507.02861",
+    "tex_source_url": "https://arxiv.org/src/2507.02861",
+    "title": "LiteReality: Graphics-Ready 3D Scene Reconstruction from RGB-D Scans",
+    "categories": ["cs.CV"],
+    "selection_reason": "RGB-Dスキャンから即座にグラフィックス利用可能な3Dシーン再構築を実現。実用性が極めて高い"
+  },
+  {
+    "id": "2507.02859v1",
+    "base_id": "2507.02859",
+    "tex_source_url": "https://arxiv.org/src/2507.02859",
+    "title": "Bootstrapping Grounded Chain-of-Thought in Multimodal LLMs for Data-Efficient Model Adaptation",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "マルチモーダルLLMのデータ効率的な適応手法。少量データでの性能向上が期待できる革新的アプローチ"
+  },
+  {
+    "id": "2507.02850v1",
+    "base_id": "2507.02850",
+    "tex_source_url": "https://arxiv.org/src/2507.02850",
+    "title": "LLM Hypnosis: Exploiting User Feedback for Unauthorized Knowledge Injection to All Users",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "LLMのセキュリティ脆弱性を暴く重要な研究。AIの安全性とユーザー保護の観点から影響力大"
+  }
+]
