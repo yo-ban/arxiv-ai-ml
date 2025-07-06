@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2507.02856v1",
+    "base_id": "2507.02856",
+    "tex_source_url": "https://arxiv.org/src/2507.02856",
+    "title": "Answer Matching Outperforms Multiple Choice for Language Model Evaluation",
+    "categories": ["cs.CL", "cs.LG"],
+    "selection_reason": "Novel evaluation methodology for LLMs that could improve benchmarking accuracy and reliability, addressing a fundamental challenge in model assessment"
+  },
+  {
+    "id": "2507.02857v1",
+    "base_id": "2507.02857",
+    "tex_source_url": "https://arxiv.org/src/2507.02857",
+    "title": "AnyI2V: Animating Any Conditional Image with Motion Control",
+    "categories": ["cs.CV"],
+    "selection_reason": "Practical image-to-video animation with motion control, enabling content creation applications and advancing controllable video generation"
+  },
+  {
+    "id": "2507.02844v1",
+    "base_id": "2507.02844",
+    "tex_source_url": "https://arxiv.org/src/2507.02844",
+    "title": "Visual Contextual Attack: Jailbreaking MLLMs with Image-Driven Context Injection",
+    "categories": ["cs.CR", "cs.CV"],
+    "selection_reason": "Critical security research exposing vulnerabilities in multimodal LLMs through visual attacks, essential for improving model safety and robustness"
+  }
+]
