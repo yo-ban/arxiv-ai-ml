@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2507.02847v1",
+    "base_id": "2507.02847",
+    "tex_source_url": "https://arxiv.org/src/2507.02847",
+    "title": "MvHo-IB: Multi-View Higher-Order Information Bottleneck for Brain Disorder Diagnosis",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "医療AIへの実用的応用。多視点情報ボトルネックを用いた脳疾患診断の新しいアプローチで、臨床応用の可能性が高い"
+  },
+  {
+    "id": "2507.02858v1",
+    "base_id": "2507.02858",
+    "tex_source_url": "https://arxiv.org/src/2507.02858",
+    "title": "Requirements Elicitation Follow-Up Question Generation",
+    "categories": ["cs.AI"],
+    "selection_reason": "ソフトウェア工学におけるAI活用。要求抽出プロセスを自動化し、開発効率向上に貢献する実用的な技術"
+  },
+  {
+    "id": "2507.02846v1",
+    "base_id": "2507.02846",
+    "tex_source_url": "https://arxiv.org/src/2507.02846",
+    "title": "Legal Requirements Translation from Law",
+    "categories": ["cs.AI"],
+    "selection_reason": "法律分野へのAI応用。法的要件の自動翻訳により、法務プロセスの効率化と正確性向上が期待できる"
+  }
+]
