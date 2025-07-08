@@ -769,3 +769,45 @@ a:hover {
         text-align: center;
     }
 }
+
+/* ==========================================================================
+   MathJax数式スタイル
+   ========================================================================== */
+
+/* インライン数式のスタイル */
+.MathJax {
+    font-size: 1.1em !important;
+}
+
+/* ディスプレイ数式（中央寄せ）のスタイル */
+.MathJax_Display {
+    margin: 1.5em 0 !important;
+}
+
+/* 数式の色を論文のテーマに合わせる */
+.MathJax, .MathJax_Display {
+    color: var(--black) !important;
+}
+
+/* 数式を含む段落の調整 */
+p:has(.MathJax) {
+    line-height: 2.2;
+}
+
+/* スクロール可能な数式コンテナ */
+.MathJax_Display {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/* モバイルでの数式表示改善 */
+@media (max-width: 768px) {
+    .MathJax {
+        font-size: 1em !important;
+    }
+    
+    .MathJax_Display {
+        font-size: 0.95em !important;
+        padding: 0 0.5em;
+    }
+}
