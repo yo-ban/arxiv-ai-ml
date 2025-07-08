@@ -170,26 +170,26 @@ async function generatePaperPage(paper, siteRoot) {
     };
     
     const yamlCategories = frontmatter.paper.categories.length > 0 
-        ? frontmatter.paper.categories.map(c => `    - "${c}"`).join('\n')
+        ? frontmatter.paper.categories.map(c => `    - "${c.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`).join('\n')
         : '    []';
     
     const yamlTags = frontmatter.tags.map(tag => `  - ${tag}`).join('\n');
     
     const content = `---
 layout: ${frontmatter.layout}
-title: "${(frontmatter.title || '').replace(/"/g, '\\"')}"
+title: "${(frontmatter.title || '').replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"
 paper:
   id: "${frontmatter.paper.id}"
   arxivId: "${frontmatter.paper.arxivId || ''}"
   arxivUrl: "${frontmatter.paper.arxivUrl || ''}"
-  title: "${(frontmatter.paper.title || '').replace(/"/g, '\\"')}"
-  authors: "${(frontmatter.paper.authors || '').replace(/"/g, '\\"')}"
-  affiliations: "${(frontmatter.paper.affiliations || '').replace(/"/g, '\\"')}"
+  title: "${(frontmatter.paper.title || '').replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"
+  authors: "${(frontmatter.paper.authors || '').replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"
+  affiliations: "${(frontmatter.paper.affiliations || '').replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"
   submittedDate: "${frontmatter.paper.submittedDate || ''}"
   categories:
 ${yamlCategories}
-  summary: "${(frontmatter.paper.summary || '').replace(/"/g, '\\"').replace(/\n/g, '\\n')}"
-  selectionReason: "${frontmatter.paper.selectionReason ? frontmatter.paper.selectionReason.replace(/"/g, '\\"') : ''}"
+  summary: "${(frontmatter.paper.summary || '').replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n')}"
+  selectionReason: "${frontmatter.paper.selectionReason ? frontmatter.paper.selectionReason.replace(/\\/g, '\\\\').replace(/"/g, '\\"') : ''}"
   date: "${frontmatter.paper.date}"
 tags:
 ${yamlTags}
