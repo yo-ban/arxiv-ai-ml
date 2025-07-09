@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.06229v1",
+    "base_id": "2507.06229",
+    "tex_source_url": "https://arxiv.org/src/2507.06229",
+    "title": "Agent KB: Leveraging Cross-Domain Experience for Agentic Problem Solving",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "エージェント型AIの実践的なアプローチで、異なるドメインの経験を活用する新規性の高い手法"
+  },
+  {
+    "id": "2507.06224v1",
+    "base_id": "2507.06224",
+    "tex_source_url": "https://arxiv.org/src/2507.06224",
+    "title": "EC-Flow: Enabling Versatile Robotic Manipulation from Action-Unlabeled Videos via Embodiment-Centric Flow",
+    "categories": ["cs.CV", "cs.RO"],
+    "selection_reason": "アクションラベルなしのビデオからロボット操作を学習する実用的な技術で、応用範囲が広い"
+  },
+  {
+    "id": "2507.06211v1",
+    "base_id": "2507.06211",
+    "tex_source_url": "https://arxiv.org/src/2507.06211",
+    "title": "Modern Methods in Associative Memory",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "連想記憶の基礎的研究で、多くのAIシステムに影響を与える可能性がある重要な課題"
+  },
+  {
+    "id": "2507.06204v1",
+    "base_id": "2507.06204",
+    "tex_source_url": "https://arxiv.org/src/2507.06204",
+    "title": "Differential Mamba",
+    "categories": ["cs.LG"],
+    "selection_reason": "注目されているMambaアーキテクチャの新しい変種で、アーキテクチャ設計への新規アプローチ"
+  }
+]
