@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.07105v1",
+    "base_id": "2507.07105",
+    "tex_source_url": "https://arxiv.org/src/2507.07105",
+    "title": "4KAgent: Agentic Any Image to 4K Super-Resolution",
+    "categories": ["cs.CV"],
+    "selection_reason": "Agent-based approach to super-resolution with high practical value for image enhancement applications"
+  },
+  {
+    "id": "2507.07104v1",
+    "base_id": "2507.07104",
+    "tex_source_url": "https://arxiv.org/src/2507.07104",
+    "title": "Vision-Language-Vision Auto-Encoder: Scalable Knowledge Distillation from Diffusion Models",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Novel approach to knowledge distillation from diffusion models with potential for model compression"
+  },
+  {
+    "id": "2507.07101v1",
+    "base_id": "2507.07101",
+    "tex_source_url": "https://arxiv.org/src/2507.07101",
+    "title": "Small Batch Size Training for Language Models: When Vanilla SGD Works, and Why Gradient Accumulation Is Wasteful",
+    "categories": ["cs.LG", "cs.CL"],
+    "selection_reason": "Practical insights for training LLMs in resource-constrained environments, challenging common practices"
+  },
+  {
+    "id": "2507.07095v1",
+    "base_id": "2507.07095",
+    "tex_source_url": "https://arxiv.org/src/2507.07095",
+    "title": "Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data",
+    "categories": ["cs.CV", "cs.GR"],
+    "selection_reason": "Zero-shot motion generation with million-scale data, high impact for animation and gaming applications"
+  }
+]
