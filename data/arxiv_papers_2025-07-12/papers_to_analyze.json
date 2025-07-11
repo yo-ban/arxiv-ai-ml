@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.07998v1",
+    "base_id": "2507.07998",
+    "tex_source_url": "https://arxiv.org/src/2507.07998",
+    "title": "PyVision: Agentic Vision with Dynamic Tooling",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "実用性の高いエージェント型ビジョンシステムで、動的なツール利用により複雑なビジョンタスクを解決する新しいアプローチ"
+  },
+  {
+    "id": "2507.07997v1",
+    "base_id": "2507.07997",
+    "tex_source_url": "https://arxiv.org/src/2507.07997",
+    "title": "MGVQ: Could VQ-VAE Beat VAE? A Generalizable Tokenizer with Multi-group Quantization",
+    "categories": ["cs.LG", "cs.CV"],
+    "selection_reason": "マルチグループ量子化による新しいトークナイザー手法で、基礎モデルの性能向上に直接貢献する革新的なアプローチ"
+  },
+  {
+    "id": "2507.07996v1",
+    "base_id": "2507.07996",
+    "tex_source_url": "https://arxiv.org/src/2507.07996",
+    "title": "Skip a Layer or Loop it? Test-Time Depth Adaptation of Pretrained LLMs",
+    "categories": ["cs.LG", "cs.CL"],
+    "selection_reason": "テスト時にLLMの深さを動的に調整する実用的な手法で、計算効率と性能のトレードオフを最適化"
+  },
+  {
+    "id": "2507.07990v1",
+    "base_id": "2507.07990",
+    "tex_source_url": "https://arxiv.org/src/2507.07990",
+    "title": "Multi-Granular Spatio-Temporal Token Merging for Training-Free Acceleration of Video LLMs",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "学習不要でビデオLLMを高速化する実用的な手法で、時空間トークンの効率的な統合により即座に適用可能"
+  }
+]
