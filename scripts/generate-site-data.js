@@ -79,39 +79,39 @@ function parsePaperMarkdown(content, filename, metadata, date) {
         paper.title = titleMatch[1];
     }
     
-    // arXiv IDを抽出（括弧内のURL形式にも対応）
-    const arxivIdMatch = content.match(/arXiv ID: ([\w\.]+)(?:\s*\(https:\/\/arxiv\.org\/abs\/([\w\.]+)\))?/);
+    // arXiv IDを抽出（括弧内のURL形式にも対応、太字記法も対応）
+    const arxivIdMatch = content.match(/(?:\*\*)?arXiv ID(?:\*\*)?:\s*([\w\.]+)(?:\s*\(https:\/\/arxiv\.org\/abs\/([\w\.]+)\))?/);
     if (arxivIdMatch) {
         paper.arxivId = arxivIdMatch[1];
         paper.arxivUrl = `https://arxiv.org/abs/${arxivIdMatch[1]}`;
     }
     
-    // 著者を抽出（複数行対応）
-    const authorsMatch = content.match(/著者:\s*\n([\s\S]*?)(?=\n- 所属:|$)/m);
+    // 著者を抽出（複数行対応、太字記法も対応）
+    const authorsMatch = content.match(/(?:\*\*)?著者(?:\*\*)?:\s*\n([\s\S]*?)(?=\n- (?:\*\*)?所属(?:\*\*)?:|$)/m);
     if (authorsMatch) {
         paper.authors = authorsMatch[1].trim().replace(/\s*\n\s*/g, ' ');
     } else {
         // 単一行の場合
-        const singleLineAuthorsMatch = content.match(/著者: (.+)/);
+        const singleLineAuthorsMatch = content.match(/(?:\*\*)?著者(?:\*\*)?:\s*(.+)/);
         if (singleLineAuthorsMatch) {
             paper.authors = singleLineAuthorsMatch[1];
         }
     }
     
-    // 所属を抽出
-    const affiliationMatch = content.match(/所属: (.+)/);
+    // 所属を抽出（太字記法も対応）
+    const affiliationMatch = content.match(/(?:\*\*)?所属(?:\*\*)?:\s*(.+)/);
     if (affiliationMatch) {
         paper.affiliations = affiliationMatch[1];
     }
     
-    // 投稿日を抽出
-    const submittedMatch = content.match(/投稿日: (.+)/);
+    // 投稿日を抽出（太字記法も対応）
+    const submittedMatch = content.match(/(?:\*\*)?投稿日(?:\*\*)?:\s*(.+)/);
     if (submittedMatch) {
         paper.submittedDate = submittedMatch[1];
     }
     
-    // カテゴリを抽出
-    const categoriesMatch = content.match(/カテゴリ: (.+)/);
+    // カテゴリを抽出（太字記法も対応）
+    const categoriesMatch = content.match(/(?:\*\*)?カテゴリ(?:\*\*)?:\s*(.+)/);
     if (categoriesMatch) {
         paper.categories = categoriesMatch[1].split(/[,、]\s*/);
     }
