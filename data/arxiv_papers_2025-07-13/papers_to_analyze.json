@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.07986v1",
+    "base_id": "2507.07986",
+    "tex_source_url": "https://arxiv.org/src/2507.07986",
+    "title": "EXPO: Stable Reinforcement Learning with Expressive Policies",
+    "categories": ["cs.LG"],
+    "selection_reason": "安定的な強化学習の新手法で、表現力豊かなポリシーを使用した実用的なアプローチ"
+  },
+  {
+    "id": "2507.07988v1",
+    "base_id": "2507.07988",
+    "tex_source_url": "https://arxiv.org/src/2507.07988",
+    "title": "Automating Expert-Level Medical Reasoning Evaluation of Large Language Models",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "LLMの医療分野での評価を自動化する手法で、実用性と影響力が高い"
+  },
+  {
+    "id": "2507.07999v1",
+    "base_id": "2507.07999",
+    "tex_source_url": "https://arxiv.org/src/2507.07999",
+    "title": "Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and Methodology",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "視覚的根拠に基づく推論の追跡可能性を高める手法で、説明可能なAIの発展に貢献"
+  },
+  {
+    "id": "2507.07984v1",
+    "base_id": "2507.07984",
+    "tex_source_url": "https://arxiv.org/src/2507.07984",
+    "title": "OST-Bench: Evaluating the Capabilities of MLLMs in Online Spatio-temporal Scene Understanding",
+    "categories": ["cs.CV"],
+    "selection_reason": "マルチモーダルLLMの時空間シーン理解能力を評価する新しいベンチマークで、実用性が高い"
+  }
+]
