@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.07982v1",
+    "base_id": "2507.07982",
+    "tex_source_url": "https://arxiv.org/src/2507.07982",
+    "title": "Geometry Forcing: Marrying Video Diffusion and 3D Representation for Consistent World Modeling",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "ビデオ生成と3D表現を革新的に融合させた手法で、時空間的に一貫性のあるワールドモデリングを実現。実用性と新規性が高い"
+  },
+  {
+    "id": "2507.08000v1",
+    "base_id": "2507.08000",
+    "tex_source_url": "https://arxiv.org/src/2507.08000",
+    "title": "Impact of Pretraining Word Co-occurrence on Compositional Generalization in Multimodal Models",
+    "categories": ["cs.CL", "cs.CV", "cs.LG"],
+    "selection_reason": "マルチモーダルモデルの構成的汎化能力に関する基礎研究。事前学習データの影響を分析しており、AI/ML分野への影響力が高い"
+  },
+  {
+    "id": "2507.07995v1",
+    "base_id": "2507.07995",
+    "tex_source_url": "https://arxiv.org/src/2507.07995",
+    "title": "Single-pass Adaptive Image Tokenization for Minimum Program Search",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "効率的な画像トークン化の新手法を提案。単一パスで適応的なトークン化を実現し、計算効率の改善に貢献"
+  },
+  {
+    "id": "2507.07985v1",
+    "base_id": "2507.07985",
+    "tex_source_url": "https://arxiv.org/src/2507.07985",
+    "title": "CLIP Won't Learn Object-Attribute Binding from Natural Data and Here is Why",
+    "categories": ["cs.CV", "cs.CL", "cs.LG"],
+    "selection_reason": "Vision-Languageモデルの根本的な限界を分析。CLIPの物体-属性結合学習の問題を明らかにし、今後のVLM研究に重要な示唆を提供"
+  }
+]
