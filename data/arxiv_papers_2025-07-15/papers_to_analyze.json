@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.08800v1",
+    "base_id": "2507.08800",
+    "tex_source_url": "https://arxiv.org/src/2507.08800",
+    "title": "NeuralOS: Towards Simulating Operating Systems via Neural Generative Models",
+    "categories": ["cs.CV", "cs.AI", "cs.CL", "cs.HC", "cs.LG"],
+    "selection_reason": "OSをニューラルモデルでシミュレートする革新的アプローチ。システムレベルの理解と生成モデルの新しい応用を示す"
+  },
+  {
+    "id": "2507.08799v1",
+    "base_id": "2507.08799",
+    "tex_source_url": "https://arxiv.org/src/2507.08799",
+    "title": "KV Cache Steering for Inducing Reasoning in Small Language Models",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "小規模言語モデルの推論能力を向上させる実用的手法。リソース制約環境での応用可能性が高い"
+  },
+  {
+    "id": "2507.08794v1",
+    "base_id": "2507.08794",
+    "tex_source_url": "https://arxiv.org/src/2507.08794",
+    "title": "One Token to Fool LLM-as-a-Judge",
+    "categories": ["cs.LG", "cs.CL"],
+    "selection_reason": "LLM評価システムの脆弱性を明らかにする重要な安全性研究。評価の信頼性向上に貢献"
+  },
+  {
+    "id": "2507.08771v1",
+    "base_id": "2507.08771",
+    "tex_source_url": "https://arxiv.org/src/2507.08771",
+    "title": "BlockFFN: Towards End-Side Acceleration-Friendly Mixture-of-Experts with Chunk-Level Activation Sparsity",
+    "categories": ["cs.LG", "cs.CL"],
+    "selection_reason": "MoEモデルのエンドサイド高速化のための実用的技術。大規模モデルの効率的展開に貢献"
+  }
+]
