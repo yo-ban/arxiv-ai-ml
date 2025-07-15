@@ -111,9 +111,13 @@ function parsePaperMarkdown(content, filename, metadata, date) {
     }
     
     // カテゴリを抽出（太字記法も対応）
-    const categoriesMatch = content.match(/(?:\*\*)?カテゴリ(?:\*\*)?:\s*(.+)/);
+    const categoriesMatch = content.match(/(?:\*\*)?カテゴリ(?:\*\*)?:\s*([^(\n]+)/);
     if (categoriesMatch) {
-        paper.categories = categoriesMatch[1].split(/[,、]\s*/);
+        // カテゴリをクリーンアップ（空白や不要な文字を除去）
+        paper.categories = categoriesMatch[1]
+            .split(/[,、]\s*/)
+            .map(cat => cat.trim())
+            .filter(cat => cat && cat.match(/^[a-zA-Z0-9\-\.]+$/)); // 有効なカテゴリ形式のみ
     }
     
     // 「簡単に説明すると」セクションを抽出
@@ -169,11 +173,20 @@ async function generatePaperPage(paper, siteRoot) {
         tags: ['paper'].concat(paper.categories || [])
     };
     
-    const yamlCategories = frontmatter.paper.categories.length > 0 
+    const yamlCategories = frontmatter.paper.categories && frontmatter.paper.categories.length > 0 
         ? frontmatter.paper.categories.map(c => `    - "${c.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`).join('\n')
         : '    []';
     
-    const yamlTags = frontmatter.tags.map(tag => `  - ${tag}`).join('\n');
+    const yamlTags = frontmatter.tags
+        .filter(tag => tag && typeof tag === 'string')
+        .map(tag => {
+            // タグに特殊文字が含まれる場合はクォート
+            if (tag.match(/[:\{\}\[\],&\*#\?\|\-<>=!%@\\]/)) {
+                return `  - "${tag.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
+            }
+            return `  - ${tag}`;
+        })
+        .join('\n');
     
     const content = `---
 layout: ${frontmatter.layout}
