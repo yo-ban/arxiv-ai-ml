@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.10541v1",
+    "base_id": "2507.10541",
+    "tex_source_url": "https://arxiv.org/src/2507.10541",
+    "title": "REST: Stress Testing Large Reasoning Models by Asking Multiple Problems at Once",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "実用的なLLM信頼性テスト手法。複数問題同時処理による新しいストレステスト手法を提案し、大規模推論モデルの実世界での利用において重要な信頼性評価を可能にする"
+  },
+  {
+    "id": "2507.10535v1",
+    "base_id": "2507.10535",
+    "tex_source_url": "https://arxiv.org/src/2507.10535",
+    "title": "CodeJudgeBench: Benchmarking LLM-as-a-Judge for Coding Tasks",
+    "categories": ["cs.AI", "cs.SE"],
+    "selection_reason": "コード評価におけるLLMの実用的なベンチマーク。開発ワークフローへの統合が期待でき、LLMベースのコード評価の品質向上に貢献する重要な研究"
+  },
+  {
+    "id": "2507.10548v1",
+    "base_id": "2507.10548",
+    "tex_source_url": "https://arxiv.org/src/2507.10548",
+    "title": "EmbRACE-3K: Embodied Reasoning and Action in Complex Environments",
+    "categories": ["cs.AI", "cs.RO"],
+    "selection_reason": "エンボディードAIの新しいベンチマーク。複雑な環境での推論と行動を評価する3000タスクを提供し、実世界でのAIエージェントの能力向上に寄与"
+  },
+  {
+    "id": "2507.10524v1",
+    "base_id": "2507.10524",
+    "tex_source_url": "https://arxiv.org/src/2507.10524",
+    "title": "Mixture-of-Recursions: Learning Dynamic Recursive Depths for Adaptive Token-Level Computation",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "効率的な適応計算の新アーキテクチャ。トークンレベルで動的に再帰深度を調整し、LLMの計算効率を大幅に改善する可能性がある革新的アプローチ"
+  }
+]
