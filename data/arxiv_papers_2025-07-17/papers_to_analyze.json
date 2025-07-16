@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.11539v1",
+    "base_id": "2507.11539",
+    "tex_source_url": "https://arxiv.org/src/2507.11539",
+    "title": "Streaming 4D Visual Geometry Transformer",
+    "categories": ["cs.CV"],
+    "selection_reason": "Novel real-time 4D visual processing approach with practical applications in computer vision and robotics"
+  },
+  {
+    "id": "2507.11538v1",
+    "base_id": "2507.11538",
+    "tex_source_url": "https://arxiv.org/src/2507.11538",
+    "title": "How Many Instructions Can LLMs Follow at Once?",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "Fundamental research on LLM capabilities providing practical insights for prompt engineering and model usage"
+  },
+  {
+    "id": "2507.11533v1",
+    "base_id": "2507.11533",
+    "tex_source_url": "https://arxiv.org/src/2507.11533",
+    "title": "CharaConsist: Fine-Grained Consistent Character Generation",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Addresses consistency challenges in character generation with practical applications in content creation"
+  },
+  {
+    "id": "2507.11527v1",
+    "base_id": "2507.11527",
+    "tex_source_url": "https://arxiv.org/src/2507.11527",
+    "title": "DrafterBench: Benchmarking Large Language Models for Tasks Automation in Civil Engineering",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "Domain-specific benchmark demonstrating LLM applications in professional engineering tasks"
+  }
+]
