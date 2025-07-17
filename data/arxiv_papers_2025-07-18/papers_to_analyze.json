@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.12466v1",
+    "base_id": "2507.12466",
+    "tex_source_url": "https://arxiv.org/src/2507.12466",
+    "title": "Language Models Improve When Pretraining Data Matches Target Tasks",
+    "categories": ["cs.LG", "cs.CL"],
+    "selection_reason": "LLMの事前学習データとタスクのマッチングに関する基礎研究。実用的な最適化手法を提供し、LLM開発に大きな影響を与える可能性がある"
+  },
+  {
+    "id": "2507.12455v1",
+    "base_id": "2507.12455",
+    "tex_source_url": "https://arxiv.org/src/2507.12455",
+    "title": "Mitigating Object Hallucinations via Sentence-Level Early Intervention",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "LLMのオブジェクト幻覚問題に対する新しいアプローチ。現在のLLMの重要な課題に取り組み、実用性が高い"
+  },
+  {
+    "id": "2507.12465v1",
+    "base_id": "2507.12465",
+    "tex_source_url": "https://arxiv.org/src/2507.12465",
+    "title": "PhysX: Physical-Grounded 3D Asset Generation",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "物理的制約を考慮した3Dアセット生成。ゲーム開発やグラフィックスアプリケーションへの応用が期待できる"
+  },
+  {
+    "id": "2507.12440v1",
+    "base_id": "2507.12440",
+    "tex_source_url": "https://arxiv.org/src/2507.12440",
+    "title": "EgoVLA: Learning Vision-Language-Action Models from Egocentric Human Videos",
+    "categories": ["cs.CV", "cs.AI", "cs.LG"],
+    "selection_reason": "一人称視点の動画からVLAモデルを学習。ロボティクスやAR/VRへの応用が期待でき、エンボディドAIの発展に貢献"
+  }
+]
