@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.13334v1",
+    "base_id": "2507.13334",
+    "tex_source_url": "https://arxiv.org/src/2507.13334",
+    "title": "A Survey of Context Engineering for Large Language Models",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "包括的なLLMコンテキストエンジニアリング技術のサーベイ。実用的な応用と最新技術の理解に不可欠"
+  },
+  {
+    "id": "2507.13353v1",
+    "base_id": "2507.13353",
+    "tex_source_url": "https://arxiv.org/src/2507.13353",
+    "title": "VideoITG: Multimodal Video Understanding with Instructed Temporal Grounding",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "時間的グラウンディングを用いたマルチモーダル動画理解。動画AI応用において高い実用性"
+  },
+  {
+    "id": "2507.13340v1",
+    "base_id": "2507.13340",
+    "tex_source_url": "https://arxiv.org/src/2507.13340",
+    "title": "Latent Policy Steering with Embodiment-Agnostic Pretrained World Models",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "身体性に依存しない事前学習世界モデル。ロボティクス/強化学習の汎用的アプローチ"
+  },
+  {
+    "id": "2507.13347v1",
+    "base_id": "2507.13347",
+    "tex_source_url": "https://arxiv.org/src/2507.13347",
+    "title": "$π^3$: Scalable Permutation-Equivariant Visual Geometry Learning",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "スケーラブルな置換等変視覚幾何学習。3Dビジョンタスクへの新規理論的貢献"
+  }
+]
