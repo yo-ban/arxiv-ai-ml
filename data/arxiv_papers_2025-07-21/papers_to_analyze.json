@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.13338v1",
+    "base_id": "2507.13338",
+    "tex_source_url": "https://arxiv.org/src/2507.13338",
+    "title": "Training Transformers with Enforced Lipschitz Constants",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Transformerモデルの安定性と頑健性を向上させる基盤技術。Lipschitz制約の強制という新しいアプローチで、実用的な影響力が高い"
+  },
+  {
+    "id": "2507.13346v1",
+    "base_id": "2507.13346",
+    "tex_source_url": "https://arxiv.org/src/2507.13346",
+    "title": "AutoPartGen: Autogressive 3D Part Generation and Discovery",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "自動回帰的な3Dパーツ生成と発見を実現。3Dコンテンツ生成の実用的アプリケーションに直結する技術"
+  },
+  {
+    "id": "2507.13344v1",
+    "base_id": "2507.13344",
+    "tex_source_url": "https://arxiv.org/src/2507.13344",
+    "title": "Diffuman4D: 4D Consistent Human View Synthesis from Sparse-View Videos with Spatio-Temporal Diffusion Models",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "スパースビュー動画から4D一貫性のあるヒューマンビュー合成を実現。AR/VRや動画制作への応用可能性が高い"
+  },
+  {
+    "id": "2507.13345v1",
+    "base_id": "2507.13345",
+    "tex_source_url": "https://arxiv.org/src/2507.13345",
+    "title": "Imbalance in Balance: Online Concept Balancing in Generation Models",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "生成モデルにおけるオンラインコンセプトバランシング手法。生成品質の向上に寄与する実用的な技術"
+  }
+]
