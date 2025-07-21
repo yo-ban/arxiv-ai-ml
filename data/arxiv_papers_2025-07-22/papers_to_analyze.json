@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.14137v1",
+    "base_id": "2507.14137",
+    "tex_source_url": "https://arxiv.org/src/2507.14137",
+    "title": "Franca: Nested Matryoshka Clustering for Scalable Visual Representation Learning",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Novel nested clustering approach for scalable visual representation with significant practical applications in large-scale vision systems"
+  },
+  {
+    "id": "2507.14111v1",
+    "base_id": "2507.14111",
+    "tex_source_url": "https://arxiv.org/src/2507.14111",
+    "title": "CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning",
+    "categories": ["cs.LG", "cs.DC"],
+    "selection_reason": "Innovative RL-based approach to GPU optimization with high practical value for accelerating deep learning workloads"
+  },
+  {
+    "id": "2507.14121v1",
+    "base_id": "2507.14121",
+    "tex_source_url": "https://arxiv.org/src/2507.14121",
+    "title": "Kolmogorov Arnold Networks (KANs) for Imbalanced Data -- An Empirical Perspective",
+    "categories": ["cs.LG"],
+    "selection_reason": "Addresses critical real-world problem of imbalanced data using newer KAN architecture with empirical validation"
+  },
+  {
+    "id": "2507.14088v1",
+    "base_id": "2507.14088",
+    "tex_source_url": "https://arxiv.org/src/2507.14088",
+    "title": "DPMT: Dual Process Multi-scale Theory of Mind Framework for Real-time Human-AI Collaboration",
+    "categories": ["cs.AI", "cs.HC"],
+    "selection_reason": "Advances human-AI collaboration through Theory of Mind framework, crucial for next-generation interactive AI systems"
+  }
+]
