@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.15857v1",
+    "base_id": "2507.15857",
+    "tex_source_url": "https://arxiv.org/src/2507.15857",
+    "title": "Diffusion Beats Autoregressive in Data-Constrained Settings",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "データ制約下での拡散モデルと自己回帰モデルの比較。実世界のデータ不足問題に対する実用的な洞察を提供"
+  },
+  {
+    "id": "2507.15856v1",
+    "base_id": "2507.15856",
+    "tex_source_url": "https://arxiv.org/src/2507.15856",
+    "title": "Latent Denoising Makes Good Visual Tokenizers",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "ビジョントークナイザーの新しいアプローチ。マルチモーダルモデルの性能向上に寄与する可能性"
+  },
+  {
+    "id": "2507.15846v1",
+    "base_id": "2507.15846",
+    "tex_source_url": "https://arxiv.org/src/2507.15846",
+    "title": "GUI-G$^2$: Gaussian Reward Modeling for GUI Grounding",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "GUIの自動化・理解のための新規手法。実用的なアプリケーションへの応用が期待できる"
+  },
+  {
+    "id": "2507.15844v1",
+    "base_id": "2507.15844",
+    "tex_source_url": "https://arxiv.org/src/2507.15844",
+    "title": "Hierarchical Budget Policy Optimization for Adaptive Reasoning",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "推論の効率化を階層的に最適化。計算リソースの制約下でのAIシステムの実用性を高める"
+  }
+]
