@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.16812v1",
+    "base_id": "2507.16812",
+    "tex_source_url": "https://arxiv.org/src/2507.16812",
+    "title": "MegaScience: Pushing the Frontiers of Post-Training Datasets for Science Reasoning",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "高品質な科学推論データセットによるLLMの科学的能力向上への重要な貢献"
+  },
+  {
+    "id": "2507.16806v1",
+    "base_id": "2507.16806",
+    "tex_source_url": "https://arxiv.org/src/2507.16806",
+    "title": "Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "言語モデルの不確実性推論能力向上という信頼性AIの基盤技術への貢献"
+  },
+  {
+    "id": "2507.16815v1",
+    "base_id": "2507.16815",
+    "tex_source_url": "https://arxiv.org/src/2507.16815",
+    "title": "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning",
+    "categories": ["cs.CV", "cs.AI", "cs.LG"],
+    "selection_reason": "視覚・言語・行動を統合した実世界AI応用への革新的アプローチ"
+  },
+  {
+    "id": "2507.16795v1",
+    "base_id": "2507.16795",
+    "tex_source_url": "https://arxiv.org/src/2507.16795",
+    "title": "Steering Out-of-Distribution Generalization with Concept Ablation Fine-Tuning",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "概念除去による分布外汎化性能向上というモデル堅牢性の重要課題への取り組み"
+  }
+]
