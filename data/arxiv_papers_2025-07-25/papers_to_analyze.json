@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.17748v1",
+    "base_id": "2507.17748",
+    "tex_source_url": "https://arxiv.org/src/2507.17748",
+    "title": "Large Learning Rates Simultaneously Achieve Robustness to Spurious Correlations and Compressibility",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "基礎研究として重要。ロバスト性とモデル圧縮という相反する目標を同時に達成する手法を提案"
+  },
+  {
+    "id": "2507.17746v1",
+    "base_id": "2507.17746",
+    "tex_source_url": "https://arxiv.org/src/2507.17746",
+    "title": "Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "検証可能でないドメインでのRL適用を可能にする新規アプローチ。幅広い応用が期待できる"
+  },
+  {
+    "id": "2507.17744v1",
+    "base_id": "2507.17744",
+    "tex_source_url": "https://arxiv.org/src/2507.17744",
+    "title": "Yume: An Interactive World Generation Model",
+    "categories": ["cs.AI", "cs.CV", "cs.LG"],
+    "selection_reason": "インタラクティブな世界生成モデル。ゲーム、シミュレーション、メタバースなど実用的応用が豊富"
+  },
+  {
+    "id": "2507.17728v1",
+    "base_id": "2507.17728",
+    "tex_source_url": "https://arxiv.org/src/2507.17728",
+    "title": "Megrez2 Technical Report",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "新しい言語モデルの技術レポート。最新の技術動向を把握するために重要"
+  }
+]
