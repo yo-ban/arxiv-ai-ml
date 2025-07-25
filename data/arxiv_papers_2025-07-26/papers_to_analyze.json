@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.18624v1",
+    "base_id": "2507.18624",
+    "tex_source_url": "https://arxiv.org/src/2507.18624",
+    "title": "Checklists Are Better Than Reward Models For Aligning Language Models",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "LLMアライメントへの新しいアプローチで、従来の報酬モデルより実用的で解釈可能なチェックリスト方式を提案"
+  },
+  {
+    "id": "2507.18634v1",
+    "base_id": "2507.18634",
+    "tex_source_url": "https://arxiv.org/src/2507.18634",
+    "title": "Captain Cinema: Towards Short Movie Generation",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "動画生成の新しいフロンティアであるショートムービー生成に取り組み、クリエイティブAIの実用化に貢献"
+  },
+  {
+    "id": "2507.18632v1",
+    "base_id": "2507.18632",
+    "tex_source_url": "https://arxiv.org/src/2507.18632",
+    "title": "SIDA: Synthetic Image Driven Zero-shot Domain Adaptation",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "ターゲットドメインデータなしでドメイン適応を実現する実用的手法で、データ不足の現実問題に対応"
+  },
+  {
+    "id": "2507.18618v1",
+    "base_id": "2507.18618",
+    "tex_source_url": "https://arxiv.org/src/2507.18618",
+    "title": "TRPrompt: Bootstrapping Query-Aware Prompt Optimization from Textual Rewards",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "テキスト報酬を用いたクエリ対応プロンプト最適化で、LLMの効率的活用に貢献する実用的手法"
+  }
+]
