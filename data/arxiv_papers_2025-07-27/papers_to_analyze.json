@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.18607v1",
+    "base_id": "2507.18607",
+    "tex_source_url": "https://arxiv.org/src/2507.18607",
+    "title": "Explainable Mapper: Charting LLM Embedding Spaces Using Perturbation-Based Explanation and Verification Agents",
+    "categories": ["cs.LG", "cs.CL"],
+    "selection_reason": "LLM埋め込み空間の解釈可能性を向上させる新規アプローチ。摂動ベースの説明と検証エージェントを組み合わせた実用的な手法"
+  },
+  {
+    "id": "2507.18597v1",
+    "base_id": "2507.18597",
+    "tex_source_url": "https://arxiv.org/src/2507.18597",
+    "title": "Linear Memory SE(2) Invariant Attention",
+    "categories": ["cs.LG"],
+    "selection_reason": "SE(2)不変性を保ちながら線形メモリ効率を実現する新しいアテンション機構。実用的なスケーラビリティの改善"
+  },
+  {
+    "id": "2507.18625v1",
+    "base_id": "2507.18625",
+    "tex_source_url": "https://arxiv.org/src/2507.18625",
+    "title": "3D Software Synthesis Guided by Constraint-Expressive Intermediate Representation",
+    "categories": ["cs.AI", "cs.PL"],
+    "selection_reason": "制約表現可能な中間表現を用いた3Dソフトウェア合成。プログラム合成の新しいアプローチで実用性が高い"
+  },
+  {
+    "id": "2507.18633v1",
+    "base_id": "2507.18633",
+    "tex_source_url": "https://arxiv.org/src/2507.18633",
+    "title": "Identifying Prompted Artist Names from Generated Images",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "生成画像からプロンプトされたアーティスト名を特定する手法。AI倫理と著作権保護の観点から重要な研究"
+  }
+]
