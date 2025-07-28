@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.19478v1",
+    "base_id": "2507.19478",
+    "tex_source_url": "https://arxiv.org/src/2507.19478",
+    "title": "MMBench-GUI: Hierarchical Multi-Platform Evaluation Framework for GUI Agents",
+    "categories": ["cs.CV", "cs.CL"],
+    "selection_reason": "GUI エージェントの評価フレームワークは、実用的で今後のAIエージェント開発に重要な基盤となる"
+  },
+  {
+    "id": "2507.19477v1",
+    "base_id": "2507.19477",
+    "tex_source_url": "https://arxiv.org/src/2507.19477",
+    "title": "Advancing Event Forecasting through Massive Training of Large Language Models: Challenges, Solutions, and Broader Impacts",
+    "categories": ["cs.LG", "cs.AI", "cs.CL"],
+    "selection_reason": "LLMによるイベント予測は多分野への応用が期待でき、大規模訓練による新しいアプローチが注目される"
+  },
+  {
+    "id": "2507.19457v1",
+    "base_id": "2507.19457",
+    "tex_source_url": "https://arxiv.org/src/2507.19457",
+    "title": "GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning",
+    "categories": ["cs.CL", "cs.AI", "cs.LG", "cs.SE"],
+    "selection_reason": "プロンプト最適化がRLを上回る可能性を示す革新的アプローチで、LLM活用の新たな方向性を提示"
+  },
+  {
+    "id": "2507.19451v1",
+    "base_id": "2507.19451",
+    "tex_source_url": "https://arxiv.org/src/2507.19451",
+    "title": "GS-Occ3D: Scaling Vision-only Occupancy Reconstruction for Autonomous Driving with Gaussian Splatting",
+    "categories": ["cs.CV"],
+    "selection_reason": "自動運転向けの占有復元技術で、ガウシアンスプラッティングを活用した実用的かつ最新の手法"
+  }
+]
