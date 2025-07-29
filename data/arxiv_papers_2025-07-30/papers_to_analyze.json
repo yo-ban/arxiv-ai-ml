@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.21053v1",
+    "base_id": "2507.21053",
+    "tex_source_url": "https://arxiv.org/src/2507.21053",
+    "title": "Flow Matching Policy Gradients",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "新しい強化学習のポリシー勾配手法で、flow matchingを活用した革新的アプローチ。実用的なRL応用に期待"
+  },
+  {
+    "id": "2507.21049v1",
+    "base_id": "2507.21049",
+    "tex_source_url": "https://arxiv.org/src/2507.21049",
+    "title": "Rep-MTL: Unleashing the Power of Representation-level Task Saliency for Multi-Task Learning",
+    "categories": ["cs.LG", "cs.CV"],
+    "selection_reason": "マルチタスク学習の表現レベルでの新アプローチ。実用的なMLシステムの効率化に直結"
+  },
+  {
+    "id": "2507.21035v1",
+    "base_id": "2507.21035",
+    "tex_source_url": "https://arxiv.org/src/2507.21035",
+    "title": "GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis",
+    "categories": ["cs.AI", "cs.MA"],
+    "selection_reason": "科学的発見のためのマルチエージェントシステム。コード駆動型アプローチで実用性と新規性が高い"
+  },
+  {
+    "id": "2507.21017v1",
+    "base_id": "2507.21017",
+    "tex_source_url": "https://arxiv.org/src/2507.21017",
+    "title": "MIRAGE-Bench: LLM Agent is Hallucinating and Where to Find Them",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "LLMの幻覚問題を体系的に評価するベンチマーク。実用的なLLMデプロイメントに不可欠"
+  }
+]
