@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.22062v1",
+    "base_id": "2507.22062",
+    "tex_source_url": "https://arxiv.org/src/2507.22062",
+    "title": "MetaCLIP 2: A Worldwide Scaling Recipe",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Meta研究による大規模CLIPモデルの重要な進化。グローバルスケーリング手法により、実用的な視覚言語モデルの性能向上が期待"
+  },
+  {
+    "id": "2507.22058v1",
+    "base_id": "2507.22058",
+    "tex_source_url": "https://arxiv.org/src/2507.22058",
+    "title": "X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image Generative Models Great Again",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "強化学習と離散自己回帰モデルを組み合わせた新規アプローチ。画像生成分野に新たな可能性を提示"
+  },
+  {
+    "id": "2507.22050v1",
+    "base_id": "2507.22050",
+    "tex_source_url": "https://arxiv.org/src/2507.22050",
+    "title": "DeepSieve: Information Sieving via LLM-as-a-Knowledge-Router",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "LLMを知識ルーターとして活用する実用的な情報フィルタリング手法。大規模情報処理システムへの応用が期待"
+  },
+  {
+    "id": "2507.22034v1",
+    "base_id": "2507.22034",
+    "tex_source_url": "https://arxiv.org/src/2507.22034",
+    "title": "UserBench: An Interactive Gym Environment for User-Centric Agents",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "ユーザー中心のエージェント評価のための重要なベンチマーク環境。AI研究の実用性評価に大きく貢献"
+  }
+]
