@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.22887v1",
+    "base_id": "2507.22887",
+    "tex_source_url": "https://arxiv.org/src/2507.22887",
+    "title": "Where to show Demos in Your Prompt: A Positional Bias of In-Context Learning",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "Addresses fundamental ICL positional bias issue, providing practical insights for prompt engineering"
+  },
+  {
+    "id": "2507.22879v1",
+    "base_id": "2507.22879",
+    "tex_source_url": "https://arxiv.org/src/2507.22879",
+    "title": "RecGPT Technical Report",
+    "categories": ["cs.IR", "cs.AI"],
+    "selection_reason": "Large-scale industrial recommendation system integrating LLMs, highly practical with 53 authors"
+  },
+  {
+    "id": "2507.22876v1",
+    "base_id": "2507.22876",
+    "tex_source_url": "https://arxiv.org/src/2507.22876",
+    "title": "Automatically discovering heuristics in a complex SAT solver with large language models",
+    "categories": ["cs.AI", "cs.LO"],
+    "selection_reason": "Novel application of LLMs to SAT solving, potentially transformative for automated reasoning"
+  },
+  {
+    "id": "2507.22872v1",
+    "base_id": "2507.22872",
+    "tex_source_url": "https://arxiv.org/src/2507.22872",
+    "title": "TR-PTS: Task-Relevant Parameter and Token Selection for Efficient Tuning",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Efficient fine-tuning method with practical benefits for resource-constrained deployment"
+  }
+]
