@@ -1,0 +1,10 @@
+[
+  {
+    "id": "2507.23785v1",
+    "base_id": "2507.23785",
+    "tex_source_url": "https://arxiv.org/src/2507.23785",
+    "title": "Gaussian Variation Field Diffusion for High-fidelity Video-to-4D Synthesis",
+    "categories": ["cs.CV"],
+    "selection_reason": "ビデオから高品質な4D表現を生成する新しい手法で、3Dコンテンツ生成分野における実用性と新規性が高い。ただし、本日の論文取得数が1本のみのため、要件の3〜4本を満たせていません。"
+  }
+]
