@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.23779v1",
+    "base_id": "2507.23779",
+    "tex_source_url": "https://arxiv.org/src/2507.23779",
+    "title": "Phi-Ground Tech Report: Advancing Perception in GUI Grounding",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "GUI認識の実用的な技術。UIテストやRPAなど幅広い応用が期待できる"
+  },
+  {
+    "id": "2507.23773v1",
+    "base_id": "2507.23773",
+    "tex_source_url": "https://arxiv.org/src/2507.23773",
+    "title": "SimuRA: Towards General Goal-Oriented Agent via Simulative Reasoning Architecture with LLM-Based World Model",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "LLMベースの世界モデルを使った新規性の高いエージェントアーキテクチャ。汎用的な目標指向エージェントの実現に貢献"
+  },
+  {
+    "id": "2507.23777v1",
+    "base_id": "2507.23777",
+    "tex_source_url": "https://arxiv.org/src/2507.23777",
+    "title": "XSpecMesh: Quality-Preserving Auto-Regressive Mesh Generation Acceleration via Multi-Head Speculative Decoding",
+    "categories": ["cs.CG", "cs.AI"],
+    "selection_reason": "3Dメッシュ生成の高速化技術。品質を保ちながら性能を大幅に改善する実用的な手法"
+  },
+  {
+    "id": "2507.23771v1",
+    "base_id": "2507.23771",
+    "tex_source_url": "https://arxiv.org/src/2507.23771",
+    "title": "Consensus-Driven Active Model Selection",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "モデル選択の効率化手法。実際のMLパイプラインで即座に活用できる実用的な技術"
+  }
+]
