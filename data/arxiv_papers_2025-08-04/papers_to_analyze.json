@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2507.23772v1",
+    "base_id": "2507.23772",
+    "tex_source_url": "https://arxiv.org/src/2507.23772",
+    "title": "SeqAffordSplat: Scene-level Sequential Affordance Reasoning on 3D Gaussian Splatting",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "最先端の3D Gaussian Splattingとアフォーダンス推論を組み合わせた革新的アプローチ。ロボティクスやシーン理解への実用的応用が期待できる"
+  },
+  {
+    "id": "2507.23755v1",
+    "base_id": "2507.23755",
+    "tex_source_url": "https://arxiv.org/src/2507.23755",
+    "title": "Slot Attention with Re-Initialization and Self-Distillation",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "オブジェクト中心学習の基礎的メカニズムの改善。広範なビジョンタスクへの影響が期待される"
+  },
+  {
+    "id": "2507.23763v1",
+    "base_id": "2507.23763",
+    "tex_source_url": "https://arxiv.org/src/2507.23763",
+    "title": "Topology Optimization in Medical Image Segmentation with Fast Euler Characteristic",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "医療画像セグメンテーションへの新しいトポロジーベースアプローチ。医療AIの発展に貢献する高インパクトな研究"
+  },
+  {
+    "id": "2507.23782v1",
+    "base_id": "2507.23782",
+    "tex_source_url": "https://arxiv.org/src/2507.23782",
+    "title": "MonoFusion: Sparse-View 4D Reconstruction via Monocular Fusion",
+    "categories": ["cs.CV"],
+    "selection_reason": "少数視点からの4D再構成という挑戦的な課題に取り組む研究。AR/VRや3Dコンテンツ制作への実用的応用が期待できる"
+  }
+]
