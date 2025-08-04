@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.00819v1",
+    "base_id": "2508.00819",
+    "tex_source_url": "https://arxiv.org/src/2508.00819",
+    "title": "Beyond Fixed: Variable-Length Denoising for Diffusion Large Language Models",
+    "categories": ["cs.CL", "cs.LG"],
+    "selection_reason": "拡散モデルをLLMに適用する革新的アプローチで、可変長デノイジングにより生成品質と効率を向上させる新規性の高い研究"
+  },
+  {
+    "id": "2508.00806v1",
+    "base_id": "2508.00806",
+    "tex_source_url": "https://arxiv.org/src/2508.00806",
+    "title": "Adacc: Adaptive Compression and Activation Checkpointing for LLM Memory Management",
+    "categories": ["cs.LG", "cs.CL"],
+    "selection_reason": "LLMのメモリ管理問題に対する実用的な解決策を提供し、大規模モデルの効率的なデプロイメントに貢献する実装指向の研究"
+  },
+  {
+    "id": "2508.00784v1",
+    "base_id": "2508.00784",
+    "tex_source_url": "https://arxiv.org/src/2508.00784",
+    "title": "Unraveling Hidden Representations: A Multi-Modal Layer Analysis for Better Synthetic Content Forensics",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "AI生成コンテンツの検出精度向上に貢献し、ディープフェイク対策などAI安全性の重要課題に取り組む社会的影響力の高い研究"
+  },
+  {
+    "id": "2508.00777v1",
+    "base_id": "2508.00777",
+    "tex_source_url": "https://arxiv.org/src/2508.00777",
+    "title": "Zero-Shot Anomaly Detection with Dual-Branch Prompt Learning",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "ゼロショット学習による異常検知の新手法を提案し、ラベルデータが限られる実世界の応用に適した実用性の高い研究"
+  }
+]
