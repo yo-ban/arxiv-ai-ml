@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.02668v1",
+    "base_id": "2508.02668",
+    "tex_source_url": "https://arxiv.org/src/2508.02668",
+    "title": "LOST: Low-rank and Sparse Pre-training for Large Language Models",
+    "categories": ["cs.LG"],
+    "selection_reason": "効率的なLLM事前学習手法。低ランク・スパース表現により計算コストを大幅削減し、実用的価値が高い"
+  },
+  {
+    "id": "2508.02631v1",
+    "base_id": "2508.02631",
+    "tex_source_url": "https://arxiv.org/src/2508.02631",
+    "title": "Pointer: Linear-Complexity Long-Range Modeling without Pre-training",
+    "categories": ["cs.LG"],
+    "selection_reason": "事前学習なしで線形計算量の長距離モデリングを実現。計算効率とメモリ効率の両立という重要課題に取り組む"
+  },
+  {
+    "id": "2508.02630v1",
+    "base_id": "2508.02630",
+    "tex_source_url": "https://arxiv.org/src/2508.02630",
+    "title": "What Is Your AI Agent Buying? Evaluation, Implications and Emerging Questions for Agentic E-Commerce",
+    "categories": ["cs.AI"],
+    "selection_reason": "AIエージェントのeコマース行動を評価。実世界での自律的AI応用に関する重要な知見を提供"
+  },
+  {
+    "id": "2508.02629v1",
+    "base_id": "2508.02629",
+    "tex_source_url": "https://arxiv.org/src/2508.02629",
+    "title": "HyCodePolicy: Hybrid Language Controllers for Multimodal Monitoring and Decision in Embodied Agents",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "コード生成とマルチモーダル制御を統合した新アプローチ。具現化エージェントの複雑なタスク実行能力向上に貢献"
+  }
+]
