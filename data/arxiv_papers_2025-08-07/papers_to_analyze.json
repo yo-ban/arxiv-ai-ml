@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.03680v1",
+    "base_id": "2508.03680",
+    "tex_source_url": "https://arxiv.org/src/2508.03680",
+    "title": "Agent Lightning: Train ANY AI Agents with Reinforcement Learning",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "実用的なAIエージェント訓練フレームワーク。任意のAIエージェントをRLで訓練可能にする汎用的アプローチ"
+  },
+  {
+    "id": "2508.03682v1",
+    "base_id": "2508.03682",
+    "tex_source_url": "https://arxiv.org/src/2508.03682",
+    "title": "Self-Questioning Language Models",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "LLMの自己改善に向けた新しいアプローチ。モデルが自己質問により性能向上する革新的手法"
+  },
+  {
+    "id": "2508.03686v1",
+    "base_id": "2508.03686",
+    "tex_source_url": "https://arxiv.org/src/2508.03686",
+    "title": "CompassVerifier: A Unified and Robust Verifier for LLMs Evaluation and Outcome Reward",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "LLM評価の実用的ツール。統一的かつロバストな検証器でLLMの評価と報酬設計に貢献"
+  },
+  {
+    "id": "2508.03694v1",
+    "base_id": "2508.03694",
+    "tex_source_url": "https://arxiv.org/src/2508.03694",
+    "title": "LongVie: Multimodal-Guided Controllable Ultra-Long Video Generation",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "超長尺動画生成の新手法。マルチモーダルガイドによる制御可能な動画生成で実用性が高い"
+  }
+]
