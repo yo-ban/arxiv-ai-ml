@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.04700v1",
+    "base_id": "2508.04700",
+    "tex_source_url": "https://arxiv.org/src/2508.04700",
+    "title": "SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "革新的な自己進化型コンピュータ使用エージェント。実用性が高く、自律的な学習能力を持つ新しいアプローチ"
+  },
+  {
+    "id": "2508.04699v1",
+    "base_id": "2508.04699",
+    "tex_source_url": "https://arxiv.org/src/2508.04699",
+    "title": "Hop, Skip, and Overthink: Diagnosing Why Reasoning Models Fumble during Multi-Hop Analysis",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "LLMの多段階推論における失敗パターンの診断。AIの安全性と信頼性向上に重要な洞察を提供"
+  },
+  {
+    "id": "2508.04676v1",
+    "base_id": "2508.04676",
+    "tex_source_url": "https://arxiv.org/src/2508.04676",
+    "title": "GeRe: Towards Efficient Anti-Forgetting in Continual Learning of LLM via General Samples Replay",
+    "categories": ["cs.LG", "cs.CL"],
+    "selection_reason": "LLMの継続学習における破滅的忘却への効率的な対処法。実用的で重要な課題に取り組む"
+  },
+  {
+    "id": "2508.04698v1",
+    "base_id": "2508.04698",
+    "tex_source_url": "https://arxiv.org/src/2508.04698",
+    "title": "FaST: Feature-aware Sampling and Tuning for Personalized Preference Alignment with Limited Data",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "限定的なデータでのパーソナライズされた選好整合。効率的なLLMファインチューニングへの実用的アプローチ"
+  }
+]
