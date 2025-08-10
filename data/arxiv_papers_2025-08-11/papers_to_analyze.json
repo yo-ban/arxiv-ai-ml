@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.05635v1",
+    "base_id": "2508.05635",
+    "tex_source_url": "https://arxiv.org/src/2508.05635",
+    "title": "Genie Envisioner: A Unified World Foundation Platform for Robotic Manipulation",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "実用的な統一ロボット操作プラットフォーム。14名の著者による包括的な研究で、実世界応用への影響力が高い"
+  },
+  {
+    "id": "2508.05629v1",
+    "base_id": "2508.05629",
+    "tex_source_url": "https://arxiv.org/src/2508.05629",
+    "title": "On the Generalization of SFT: A Reinforcement Learning Perspective with Reward Rectification",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "LLMファインチューニングの理論的貢献。報酬補正を含むRL視点からのSFT一般化で、新規性と実用性が高い"
+  },
+  {
+    "id": "2508.05625v1",
+    "base_id": "2508.05625",
+    "tex_source_url": "https://arxiv.org/src/2508.05625",
+    "title": "How Do LLMs Persuade? Linear Probes Can Uncover Persuasion Dynamics in Multi-Turn Conversations",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "LLMの説得メカニズムを線形プローブで解明。AI安全性と透明性の観点から重要な研究"
+  },
+  {
+    "id": "2508.05618v1",
+    "base_id": "2508.05618",
+    "tex_source_url": "https://arxiv.org/src/2508.05618",
+    "title": "Learning to Reason for Factuality",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "LLMの事実性向上のための推論学習。8名の著者による信頼性向上への実践的アプローチ"
+  }
+]
