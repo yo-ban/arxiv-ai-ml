@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.08243v1",
+    "base_id": "2508.08243",
+    "tex_source_url": "https://arxiv.org/src/2508.08243",
+    "title": "Jinx: Unlimited LLMs for Probing Alignment Failures",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "AI安全性の重要課題であるアライメント失敗の検証手法を提案。実用的なLLM評価ツールとして高い価値"
+  },
+  {
+    "id": "2508.08240v1",
+    "base_id": "2508.08240",
+    "tex_source_url": "https://arxiv.org/src/2508.08240",
+    "title": "ODYSSEY: Open-World Quadrupeds Exploration and Manipulation for Long-Horizon Tasks",
+    "categories": ["cs.RO", "cs.AI"],
+    "selection_reason": "四足歩行ロボットの長期タスク実行を実現。実世界応用に直結する実用的な研究"
+  },
+  {
+    "id": "2508.08228v1",
+    "base_id": "2508.08228",
+    "tex_source_url": "https://arxiv.org/src/2508.08228",
+    "title": "LL3M: Large Language 3D Modelers",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "LLMと3Dモデリングを統合した新規性の高いアプローチ。コンテンツ生成への応用が期待できる"
+  },
+  {
+    "id": "2508.08221v1",
+    "base_id": "2508.08221",
+    "tex_source_url": "https://arxiv.org/src/2508.08221",
+    "title": "Part I: Tricks or Traps? A Deep Dive into RL for LLM Reasoning",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "LLMの推論能力向上におけるRLの役割を深く分析。多数の著者による大規模な研究で完成度が高い"
+  }
+]
