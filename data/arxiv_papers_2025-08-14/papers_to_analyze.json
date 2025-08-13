@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.09123v1",
+    "base_id": "2508.09123",
+    "tex_source_url": "https://arxiv.org/src/2508.09123",
+    "title": "OpenCUA: Open Foundations for Computer-Use Agents",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "大規模共同研究（39名の著者）によるコンピュータ使用エージェントの基盤技術。実用的なAIエージェント開発に直結する重要な研究"
+  },
+  {
+    "id": "2508.09101v1",
+    "base_id": "2508.09101",
+    "tex_source_url": "https://arxiv.org/src/2508.09101",
+    "title": "AutoCodeBench: Large Language Models are Automatic Code Benchmark Generators",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "コード生成能力の自動評価ベンチマーク生成技術。LLMの実用的な評価手法として非常に価値が高い"
+  },
+  {
+    "id": "2508.09129v1",
+    "base_id": "2508.09129",
+    "tex_source_url": "https://arxiv.org/src/2508.09129",
+    "title": "BrowseMaster: Towards Scalable Web Browsing via Tool-Augmented Programmatic Agent Pair",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "ツール拡張型プログラマティックエージェントペアによるWebブラウジング自動化。実用的なWeb自動化技術として注目"
+  },
+  {
+    "id": "2508.09125v1",
+    "base_id": "2508.09125",
+    "tex_source_url": "https://arxiv.org/src/2508.09125",
+    "title": "Complex Logical Instruction Generation",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "複雑な論理的指示の生成技術。LLMの指示追従能力向上に貢献する基礎的研究"
+  }
+]
