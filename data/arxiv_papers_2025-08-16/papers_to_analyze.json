@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.10880v1",
+    "base_id": "2508.10880",
+    "tex_source_url": "https://arxiv.org/src/2508.10880",
+    "title": "Searching for Privacy Risks in LLM Agents via Simulation",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Critical AI safety research addressing privacy risks in LLM agent deployment through systematic simulation approach"
+  },
+  {
+    "id": "2508.10875v1",
+    "base_id": "2508.10875", 
+    "tex_source_url": "https://arxiv.org/src/2508.10875",
+    "title": "A Survey on Diffusion Language Models",
+    "categories": ["cs.CL", "cs.LG", "cs.AI"],
+    "selection_reason": "Comprehensive survey consolidating knowledge in emerging diffusion language models with broad impact potential"
+  },
+  {
+    "id": "2508.10874v1",
+    "base_id": "2508.10874",
+    "tex_source_url": "https://arxiv.org/src/2508.10874", 
+    "title": "SSRL: Self-Search Reinforcement Learning",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Novel reinforcement learning methodology with self-search mechanism offering potential broad applications"
+  },
+  {
+    "id": "2508.10893v1",
+    "base_id": "2508.10893",
+    "tex_source_url": "https://arxiv.org/src/2508.10893",
+    "title": "STream3R: Scalable Sequential 3D Reconstruction with Causal Transformer",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Practical computer vision solution addressing scalability challenges in sequential 3D reconstruction with transformer architecture"
+  }
+]
