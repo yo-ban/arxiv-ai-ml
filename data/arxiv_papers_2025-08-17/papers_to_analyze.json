@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.10896v1",
+    "base_id": "2508.10896",
+    "tex_source_url": "https://arxiv.org/src/2508.10896",
+    "title": "ESSENTIAL: Episodic and Semantic Memory Integration for Video Class-Incremental Learning",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Novel approach to continual learning combining episodic and semantic memory for video understanding, addressing key challenge in practical AI deployment"
+  },
+  {
+    "id": "2508.10900v1",
+    "base_id": "2508.10900",
+    "tex_source_url": "https://arxiv.org/src/2508.10900",
+    "title": "Quantum Visual Fields with Neural Amplitude Encoding",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Innovative intersection of quantum computing and neural networks for visual processing, representing cutting-edge approach with potential for significant impact"
+  },
+  {
+    "id": "2508.10899v1",
+    "base_id": "2508.10899",
+    "tex_source_url": "https://arxiv.org/src/2508.10899",
+    "title": "A Dataset for Distilling Knowledge Priors from Literature for Therapeutic Design",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Practical contribution to drug discovery through knowledge distillation from literature, with clear real-world applications in healthcare"
+  },
+  {
+    "id": "2508.10894v1",
+    "base_id": "2508.10894",
+    "tex_source_url": "https://arxiv.org/src/2508.10894",
+    "title": "MAESTRO: Masked AutoEncoders for Multimodal, Multitemporal, and Multispectral Earth Observation Data",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Advanced multimodal approach for earth observation data processing, addressing important environmental monitoring applications with sophisticated ML techniques"
+  }
+]
