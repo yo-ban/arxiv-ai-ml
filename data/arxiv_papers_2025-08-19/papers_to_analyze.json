@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.11630v1",
+    "base_id": "2508.11630",
+    "tex_source_url": "https://arxiv.org/src/2508.11630",
+    "title": "Thyme: Think Beyond Images",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Novel multimodal approach with high impact potential, backed by substantial research team (20 authors)"
+  },
+  {
+    "id": "2508.11624v1",
+    "base_id": "2508.11624",
+    "tex_source_url": "https://arxiv.org/src/2508.11624",
+    "title": "LoRAtorio: An intrinsic approach to LoRA Skill Composition",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Highly practical LoRA improvements for efficient model adaptation and skill composition"
+  },
+  {
+    "id": "2508.11616v1",
+    "base_id": "2508.11616",
+    "tex_source_url": "https://arxiv.org/src/2508.11616",
+    "title": "Controlling Multimodal LLMs via Reward-guided Decoding",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "Novel approach to LLM control with significant potential for improving model alignment and behavior"
+  },
+  {
+    "id": "2508.11599v1",
+    "base_id": "2508.11599",
+    "tex_source_url": "https://arxiv.org/src/2508.11599",
+    "title": "CryptoScope: Utilizing Large Language Models for Automated Cryptographic Logic Vulnerability Detection",
+    "categories": ["cs.CR", "cs.AI"],
+    "selection_reason": "High practical value for automated security vulnerability detection with clear real-world applications"
+  }
+]
