@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.13152v1",
+    "base_id": "2508.13152",
+    "tex_source_url": "https://arxiv.org/src/2508.13152",
+    "title": "RepreGuard: Detecting LLM-Generated Text by Revealing Hidden Representation Patterns",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "高い実用性を持つAI生成テキスト検出技術で、隠れ表現を利用する新規アプローチ"
+  },
+  {
+    "id": "2508.13142v1",
+    "base_id": "2508.13142",
+    "tex_source_url": "https://arxiv.org/src/2508.13142",
+    "title": "Has GPT-5 Achieved Spatial Intelligence? An Empirical Study",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "最新モデルGPT-5の空間知能評価、高い影響力とタイムリーな研究"
+  },
+  {
+    "id": "2508.13148v1",
+    "base_id": "2508.13148",
+    "tex_source_url": "https://arxiv.org/src/2508.13148",
+    "title": "MDPO: Overcoming the Training-Inference Divide of Masked Diffusion Language Models",
+    "categories": ["cs.LG", "cs.CL"],
+    "selection_reason": "拡散言語モデルの訓練・推論格差を解決する新規技術アプローチ"
+  },
+  {
+    "id": "2508.13141v1",
+    "base_id": "2508.13141",
+    "tex_source_url": "https://arxiv.org/src/2508.13141",
+    "title": "OptimalThinkingBench: Evaluating Over and Underthinking in LLMs",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "LLMの思考品質を評価する新規ベンチマーク、高い実用性と新規性"
+  }
+]
