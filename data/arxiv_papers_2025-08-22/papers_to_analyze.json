@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.14896v1",
+    "base_id": "2508.14896",
+    "tex_source_url": "https://arxiv.org/src/2508.14896",
+    "title": "Quantization Meets dLLMs: A Systematic Study of Post-training Quantization for Diffusion LLMs",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Highly practical optimization technique for diffusion models with systematic evaluation approach"
+  },
+  {
+    "id": "2508.14881v1",
+    "base_id": "2508.14881",
+    "tex_source_url": "https://arxiv.org/src/2508.14881",
+    "title": "Compute-Optimal Scaling for Value-Based Deep RL",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Fundamental research on scaling laws for reinforcement learning with high impact potential"
+  },
+  {
+    "id": "2508.14892v1",
+    "base_id": "2508.14892",
+    "tex_source_url": "https://arxiv.org/src/2508.14892",
+    "title": "Snap-Snap: Taking Two Images to Reconstruct 3D Human Gaussians in Milliseconds",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Novel fast 3D reconstruction approach with millisecond-speed claims and practical applications"
+  },
+  {
+    "id": "2508.14879v1",
+    "base_id": "2508.14879",
+    "tex_source_url": "https://arxiv.org/src/2508.14879",
+    "title": "MeshCoder: LLM-Powered Structured Mesh Code Generation from Point Clouds",
+    "categories": ["cs.CL", "cs.LG", "cs.CV"],
+    "selection_reason": "Innovative combination of LLMs with 3D mesh generation from point clouds, bridging NLP and computer vision"
+  }
+]
