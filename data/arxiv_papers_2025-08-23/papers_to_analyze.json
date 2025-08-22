@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.15763v1",
+    "base_id": "2508.15763",
+    "tex_source_url": "https://arxiv.org/src/2508.15763",
+    "title": "Intern-S1: A Scientific Multimodal Foundation Model",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Major scientific foundation model with 175 authors indicating high completeness and potential impact across multiple scientific domains"
+  },
+  {
+    "id": "2508.15772v1",
+    "base_id": "2508.15772",
+    "tex_source_url": "https://arxiv.org/src/2508.15772",
+    "title": "Visual Autoregressive Modeling for Instruction-Guided Image Editing",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Novel autoregressive approach to visual tasks with high practical value for image editing applications guided by natural language instructions"
+  },
+  {
+    "id": "2508.15769v1",
+    "base_id": "2508.15769",
+    "tex_source_url": "https://arxiv.org/src/2508.15769",
+    "title": "SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass",
+    "categories": ["cs.CV", "cs.GR"],
+    "selection_reason": "Highly practical 3D scene generation from single images with emphasis on efficiency through single feedforward pass architecture"
+  },
+  {
+    "id": "2508.15755v1",
+    "base_id": "2508.15755",
+    "tex_source_url": "https://arxiv.org/src/2508.15755",
+    "title": "Neural Robot Dynamics",
+    "categories": ["cs.RO", "cs.LG"],
+    "selection_reason": "Neural approaches to robot dynamics modeling with high practical applications in robotics and potential for improving robot control systems"
+  }
+]
