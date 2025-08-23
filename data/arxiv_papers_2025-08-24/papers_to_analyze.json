@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.15754v1",
+    "base_id": "2508.15754",
+    "tex_source_url": "https://arxiv.org/src/2508.15754",
+    "title": "Dissecting Tool-Integrated Reasoning: An Empirical Study and Analysis",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Important empirical analysis for current AI agent systems with tool integration capabilities"
+  },
+  {
+    "id": "2508.15774v1",
+    "base_id": "2508.15774",
+    "tex_source_url": "https://arxiv.org/src/2508.15774",
+    "title": "CineScale: Free Lunch in High-Resolution Cinematic Visual Generation",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Highly practical approach to high-resolution video generation with efficiency improvements"
+  },
+  {
+    "id": "2508.15760v1",
+    "base_id": "2508.15760",
+    "tex_source_url": "https://arxiv.org/src/2508.15760",
+    "title": "LiveMCP-101: Stress Testing and Diagnosing MCP-enabled Agents on Challenging Queries",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Critical evaluation methodology for AI agent systems, addressing robustness and reliability"
+  },
+  {
+    "id": "2508.15752v1",
+    "base_id": "2508.15752",
+    "tex_source_url": "https://arxiv.org/src/2508.15752",
+    "title": "Does the cafe entrance look accessible? Where is the door? Towards Geospatial AI Agents for Visual Inquiries",
+    "categories": ["cs.AI", "cs.CV"],
+    "selection_reason": "Practical application with social impact, combining vision and geospatial AI for accessibility"
+  }
+]
