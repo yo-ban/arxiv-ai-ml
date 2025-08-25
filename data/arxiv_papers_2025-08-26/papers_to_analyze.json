@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.16577v1",
+    "base_id": "2508.16577",
+    "tex_source_url": "https://arxiv.org/src/2508.16577",
+    "title": "MV-RAG: Retrieval Augmented Multiview Diffusion",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Novel combination of RAG and multiview diffusion with high practical value for AI applications"
+  },
+  {
+    "id": "2508.16568v1",
+    "base_id": "2508.16568",
+    "tex_source_url": "https://arxiv.org/src/2508.16568",
+    "title": "Closer to Reality: Practical Semi-Supervised Federated Learning for Foundation Model Adaptation",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Highly relevant practical approach for foundation model adaptation in federated learning settings"
+  },
+  {
+    "id": "2508.16560v1",
+    "base_id": "2508.16560",
+    "tex_source_url": "https://arxiv.org/src/2508.16560",
+    "title": "Sparse but Wrong: Incorrect L0 Leads to Incorrect Features in Sparse Autoencoders",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Critical analysis of sparse autoencoders, which are key for AI interpretability research"
+  },
+  {
+    "id": "2508.16546v1",
+    "base_id": "2508.16546",
+    "tex_source_url": "https://arxiv.org/src/2508.16546",
+    "title": "RL Is Neither a Panacea Nor a Mirage: Understanding Supervised vs. Reinforcement Learning Fine-Tuning for LLMs",
+    "categories": ["cs.LG", "cs.CL"],
+    "selection_reason": "Important comparative analysis of LLM fine-tuning paradigms with significant impact on current AI practice"
+  }
+]
