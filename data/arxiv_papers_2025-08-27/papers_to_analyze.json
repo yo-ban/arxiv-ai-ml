@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.18265v1",
+    "base_id": "2508.18265",
+    "tex_source_url": "https://arxiv.org/src/2508.18265",
+    "title": "InternVL3.5: Advancing Open-Source Multimodal Models in Versatility, Reasoning, and Efficiency",
+    "categories": ["cs.CV", "cs.AI", "cs.LG"],
+    "selection_reason": "高影響力のマルチモーダルモデルで61名の研究者による包括的な改良、実用性と新規性が高い"
+  },
+  {
+    "id": "2508.18260v1",
+    "base_id": "2508.18260",
+    "tex_source_url": "https://arxiv.org/src/2508.18260",
+    "title": "MIRAGE: Scaling Test-Time Inference with Parallel Graph-Retrieval-Augmented Reasoning Chains",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "テスト時推論の新規アプローチで並列グラフ検索強化を採用、スケーラビリティと効率性で実用価値が高い"
+  },
+  {
+    "id": "2508.18264v1",
+    "base_id": "2508.18264",
+    "tex_source_url": "https://arxiv.org/src/2508.18264",
+    "title": "MMTok: Multimodal Coverage Maximization for Efficient Inference of VLMs",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "VLMの効率的推論に対するカバレッジ最大化手法、実用的なパフォーマンス改善が期待される"
+  },
+  {
+    "id": "2508.18268v1",
+    "base_id": "2508.18268",
+    "tex_source_url": "https://arxiv.org/src/2508.18268",
+    "title": "SafeBimanual: Diffusion-based Trajectory Optimization for Safe Bimanual Manipulation",
+    "categories": ["cs.RO", "cs.AI"],
+    "selection_reason": "安全な双腕操作のための拡散ベース軌道最適化、ロボティクス分野への実用的応用価値が高い"
+  }
+]
