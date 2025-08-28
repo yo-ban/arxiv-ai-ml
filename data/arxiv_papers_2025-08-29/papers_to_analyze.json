@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.20096v1",
+    "base_id": "2508.20096",
+    "tex_source_url": "https://arxiv.org/src/2508.20096",
+    "title": "CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Novel dual-brain concept for RL agents with high impact potential for computer use agents - highly practical and innovative approach"
+  },
+  {
+    "id": "2508.20095v1",
+    "base_id": "2508.20095",
+    "tex_source_url": "https://arxiv.org/src/2508.20095",
+    "title": "Discrete-Guided Diffusion for Scalable and Safe Multi-Robot Motion Planning",
+    "categories": ["cs.AI", "cs.RO"],
+    "selection_reason": "Addresses critical scalability and safety challenges in multi-robot systems - highly practical for real-world robotics applications"
+  },
+  {
+    "id": "2508.20072v1",
+    "base_id": "2508.20072",
+    "tex_source_url": "https://arxiv.org/src/2508.20072",
+    "title": "Discrete Diffusion VLA: Bringing Discrete Diffusion to Action Decoding in Vision-Language-Action Policies",
+    "categories": ["cs.AI", "cs.RO", "cs.CV"],
+    "selection_reason": "Critical advancement for embodied AI combining vision, language, and action - novel application of diffusion models to action decoding"
+  },
+  {
+    "id": "2508.20063v1",
+    "base_id": "2508.20063",
+    "tex_source_url": "https://arxiv.org/src/2508.20063",
+    "title": "OpenM3D: Open Vocabulary Multi-view Indoor 3D Object Detection without Human Annotations",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Highly practical for real-world 3D vision applications - open vocabulary approach with no human annotation requirement represents significant improvement"
+  }
+]
