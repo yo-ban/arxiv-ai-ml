@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.21066v1",
+    "base_id": "2508.21066",
+    "tex_source_url": "https://arxiv.org/src/2508.21066",
+    "title": "OneReward: Unified Mask-Guided Image Generation via Multi-Task Human Preference Learning",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Novel unified approach to multi-task human preference learning for image generation with high practical impact"
+  },
+  {
+    "id": "2508.21063v1",
+    "base_id": "2508.21063",
+    "tex_source_url": "https://arxiv.org/src/2508.21063",
+    "title": "Prompt-to-Product: Generative Assembly via Bimanual Manipulation",
+    "categories": ["cs.RO", "cs.AI"],
+    "selection_reason": "Highly practical robotics application with novel generative approach to bimanual assembly tasks"
+  },
+  {
+    "id": "2508.21046v1",
+    "base_id": "2508.21046",
+    "tex_source_url": "https://arxiv.org/src/2508.21046",
+    "title": "CogVLA: Cognition-Aligned Vision-Language-Action Model via Instruction-Driven Routing & Sparsification",
+    "categories": ["cs.AI", "cs.CV", "cs.CL"],
+    "selection_reason": "Significant contribution to multimodal AI with novel cognition-aligned architecture and instruction-driven routing"
+  },
+  {
+    "id": "2508.21048v1",
+    "base_id": "2508.21048",
+    "tex_source_url": "https://arxiv.org/src/2508.21048",
+    "title": "Veritas: Generalizable Deepfake Detection via Pattern-Aware Reasoning",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Important security application with novel pattern-aware reasoning approach for generalizable deepfake detection"
+  }
+]
