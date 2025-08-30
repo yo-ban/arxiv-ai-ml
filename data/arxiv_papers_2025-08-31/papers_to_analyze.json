@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.21060v1",
+    "base_id": "2508.21060",
+    "tex_source_url": "https://arxiv.org/src/2508.21060",
+    "title": "Multi-View 3D Point Tracking",
+    "categories": ["cs.CV"],
+    "selection_reason": "Practical computer vision advancement for 3D tracking applications with high implementation potential"
+  },
+  {
+    "id": "2508.21072v1", 
+    "base_id": "2508.21072",
+    "tex_source_url": "https://arxiv.org/src/2508.21072",
+    "title": "First-Place Solution to NeurIPS 2024 Invisible Watermark Removal Challenge",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Proven competition-winning solution with high practical value for image processing and security applications"
+  },
+  {
+    "id": "2508.21058v1",
+    "base_id": "2508.21058", 
+    "tex_source_url": "https://arxiv.org/src/2508.21058",
+    "title": "Mixture of Contexts for Long Video Generation",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Innovative approach to long video generation addressing context management challenges in a hot research area"
+  },
+  {
+    "id": "2508.21061v1",
+    "base_id": "2508.21061",
+    "tex_source_url": "https://arxiv.org/src/2508.21061", 
+    "title": "OnGoal: Tracking and Visualizing Conversational Goals in Multi-Turn Dialogue with Large Language Models",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "Addresses important conversational AI problem with practical visualization tools for dialogue goal management"
+  }
+]
