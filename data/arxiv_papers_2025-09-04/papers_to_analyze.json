@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2508.21810v1",
+    "base_id": "2508.21810",
+    "tex_source_url": "https://arxiv.org/src/2508.21810",
+    "title": "QR-LoRA: QR-Based Low-Rank Adaptation for Efficient Fine-Tuning of Large Language Models",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Novel QR decomposition approach for efficient LLM fine-tuning with high practical value for deployment optimization"
+  },
+  {
+    "id": "2508.21803v1",
+    "base_id": "2508.21803",
+    "tex_source_url": "https://arxiv.org/src/2508.21803",
+    "title": "Automated Clinical Problem Detection from SOAP Notes using a Collaborative Multi-Agent LLM Architecture",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "Direct healthcare application with multi-agent LLM architecture for clinical workflow automation and patient care improvement"
+  },
+  {
+    "id": "2508.21809v1",
+    "base_id": "2508.21809", 
+    "tex_source_url": "https://arxiv.org/src/2508.21809",
+    "title": "VoCap: Video Object Captioning and Segmentation from Any Prompt",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Unified multimodal approach combining video captioning and segmentation with prompt-based control for practical video understanding applications"
+  },
+  {
+    "id": "2508.21793v1",
+    "base_id": "2508.21793",
+    "tex_source_url": "https://arxiv.org/src/2508.21793", 
+    "title": "MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Mixture of experts framework for robust multimodal healthcare prediction with high practical value for medical AI systems"
+  }
+]
