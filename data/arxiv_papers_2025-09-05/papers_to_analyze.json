@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.03518v1",
+    "base_id": "2509.03518",
+    "tex_source_url": "https://arxiv.org/src/2509.03518",
+    "title": "Can LLMs Lie? Investigation beyond Hallucination",
+    "categories": ["cs.AI", "cs.LG", "cs.CL"],
+    "selection_reason": "高い影響力を持つLLMの信頼性研究。幻覚を超えた嘘の調査という新規性の高いアプローチ"
+  },
+  {
+    "id": "2509.03505v1",
+    "base_id": "2509.03505",
+    "tex_source_url": "https://arxiv.org/src/2509.03505",
+    "title": "LimiX: Unleashing Structured-Data Modeling Capability for Generalist Intelligence",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "汎用知能への新規アプローチで構造化データモデリング能力を強化。38名の著者による包括的研究"
+  },
+  {
+    "id": "2509.03501v1",
+    "base_id": "2509.03501",
+    "tex_source_url": "https://arxiv.org/src/2509.03501",
+    "title": "Strefer: Empowering Video LLMs with Space-Time Referring and Reasoning via Synthetic Instruction Data",
+    "categories": ["cs.CV", "cs.CL", "cs.AI"],
+    "selection_reason": "実用性の高い動画理解タスク。合成指示データによる時空間推論の新しい手法"
+  },
+  {
+    "id": "2509.03498v1",
+    "base_id": "2509.03498",
+    "tex_source_url": "https://arxiv.org/src/2509.03498",
+    "title": "OneCAT: Decoder-Only Auto-Regressive Model for Unified Understanding and Generation",
+    "categories": ["cs.AI", "cs.LG", "cs.CL"],
+    "selection_reason": "統合的な理解と生成を実現する統一アーキテクチャ。実用的なマルチタスク応用が期待"
+  }
+]
