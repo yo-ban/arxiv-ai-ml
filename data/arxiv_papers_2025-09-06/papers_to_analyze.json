@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.04448v1",
+    "base_id": "2509.04448",
+    "tex_source_url": "https://arxiv.org/src/2509.04448",
+    "title": "TRUST-VL: An Explainable News Assistant for General Multimodal Misinformation Detection",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "High-impact practical application addressing misinformation detection with explainable multimodal AI approach"
+  },
+  {
+    "id": "2509.04442v1",
+    "base_id": "2509.04442",
+    "tex_source_url": "https://arxiv.org/src/2509.04442",
+    "title": "Delta Activations: A Representation for Finetuned Large Language Models",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Novel approach to understanding and representing finetuned LLMs with potential broad impact on model analysis"
+  },
+  {
+    "id": "2509.04441v1",
+    "base_id": "2509.04441",
+    "tex_source_url": "https://arxiv.org/src/2509.04441",
+    "title": "DEXOP: A Device for Robotic Transfer of Dexterous Human Manipulation",
+    "categories": ["cs.RO", "cs.AI"],
+    "selection_reason": "Practical robotics application with real-world impact on dexterous manipulation transfer"
+  },
+  {
+    "id": "2509.04439v1",
+    "base_id": "2509.04439",
+    "tex_source_url": "https://arxiv.org/src/2509.04439",
+    "title": "ArcMemo: Abstract Reasoning Composition with Lifelong LLM Memory",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Addresses important LLM limitations in abstract reasoning with innovative lifelong memory approach"
+  }
+]
