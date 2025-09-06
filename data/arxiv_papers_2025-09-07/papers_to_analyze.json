@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.04445v1",
+    "base_id": "2509.04445",
+    "tex_source_url": "https://arxiv.org/src/2509.04445",
+    "title": "Towards Cognitively-Faithful Decision-Making Models to Improve AI Alignment",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "AI安全性の重要な課題に取り組み、認知的に忠実な意思決定モデルという新しいアプローチを提案"
+  },
+  {
+    "id": "2509.04450v1",
+    "base_id": "2509.04450",
+    "tex_source_url": "https://arxiv.org/src/2509.04450",
+    "title": "Virtual Fitting Room: Generating Arbitrarily Long Videos of Virtual Try-On from a Single Image",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "単一画像から任意の長さの映像を生成する新手法で、Eコマース分野への実用性が高い"
+  },
+  {
+    "id": "2509.04430v1",
+    "base_id": "2509.04430",
+    "tex_source_url": "https://arxiv.org/src/2509.04430",
+    "title": "Unveiling the Role of Data Uncertainty in Tabular Deep Learning",
+    "categories": ["cs.LG"],
+    "selection_reason": "タブラーデータにおける不確実性の役割を解明し、実用的な深層学習への応用価値が高い"
+  },
+  {
+    "id": "2509.04446v1",
+    "base_id": "2509.04446",
+    "tex_source_url": "https://arxiv.org/src/2509.04446",
+    "title": "Plot'n Polish: Zero-shot Story Visualization and Disentangled Editing with Text-to-Image Diffusion Models",
+    "categories": ["cs.CV", "cs.AI", "cs.CL"],
+    "selection_reason": "ゼロショット物語可視化という新規性のあるアプローチで、創作コンテンツ分野での実用性が期待できる"
+  }
+]
