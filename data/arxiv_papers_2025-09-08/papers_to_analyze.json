@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.04449v1",
+    "base_id": "2509.04449",
+    "tex_source_url": "https://arxiv.org/src/2509.04449",
+    "title": "ChronoGraph: A Real-World Graph-Based Multivariate Time Series Dataset",
+    "categories": ["cs.LG"],
+    "selection_reason": "実世界データセットの提供により時系列解析研究への実用的貢献度が高い"
+  },
+  {
+    "id": "2509.04444v1",
+    "base_id": "2509.04444",
+    "tex_source_url": "https://arxiv.org/src/2509.04444",
+    "title": "One Flight Over the Gap: A Survey from Perspective to Panoramic Vision",
+    "categories": ["cs.CV"],
+    "selection_reason": "パノラマ視覚技術の包括的サーベイとして分野全体への影響力が大きい"
+  },
+  {
+    "id": "2509.04438v1",
+    "base_id": "2509.04438",
+    "tex_source_url": "https://arxiv.org/src/2509.04438",
+    "title": "The Telephone Game: Evaluating Semantic Drift in Unified Models",
+    "categories": ["cs.LG", "cs.CL"],
+    "selection_reason": "統合モデルの意味的ドリフト評価により信頼性向上への重要な課題に取り組んでいる"
+  },
+  {
+    "id": "2509.04437v1",
+    "base_id": "2509.04437", 
+    "tex_source_url": "https://arxiv.org/src/2509.04437",
+    "title": "From Lines to Shapes: Geometric-Constrained Segmentation of X-Ray Collimators via Hough Transform",
+    "categories": ["cs.CV"],
+    "selection_reason": "医療画像処理における実用的アプリケーションで幾何学的制約を活用した新しいアプローチ"
+  }
+]
