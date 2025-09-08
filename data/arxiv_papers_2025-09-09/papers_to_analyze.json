@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.05292v1",
+    "base_id": "2509.05292",
+    "tex_source_url": "https://arxiv.org/src/2509.05292",
+    "title": "Deep Reinforcement Learning for Ranking Utility Tuning in the Ad Recommender System at Pinterest",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Real-world industrial application of deep RL in ad recommendation systems, demonstrating high practical value and proven experimental results"
+  },
+  {
+    "id": "2509.05276v1",
+    "base_id": "2509.05276",
+    "tex_source_url": "https://arxiv.org/src/2509.05276",
+    "title": "SpikingBrain Technical Report: Spiking Brain-inspired Large Models",
+    "categories": ["cs.NE", "cs.AI"],
+    "selection_reason": "Novel neuromorphic approach to large language models with potential for significant impact on energy-efficient AI computation"
+  },
+  {
+    "id": "2509.05282v1",
+    "base_id": "2509.05282",
+    "tex_source_url": "https://arxiv.org/src/2509.05282",
+    "title": "Elucidating the Design Space of Decay in Linear Attention",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Important foundational research on transformer attention mechanisms that could influence future model architectures"
+  },
+  {
+    "id": "2509.05258v1",
+    "base_id": "2509.05258",
+    "tex_source_url": "https://arxiv.org/src/2509.05258",
+    "title": "Scaling Performance of Large Language Model Pretraining",
+    "categories": ["cs.CL", "cs.LG"],
+    "selection_reason": "Fundamental scaling research addressing critical questions about LLM performance optimization and efficiency"
+  }
+]
