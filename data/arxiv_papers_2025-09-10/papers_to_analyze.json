@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.06951v1",
+    "base_id": "2509.06951",
+    "tex_source_url": "https://arxiv.org/src/2509.06951",
+    "title": "F1: A Vision-Language-Action Model Bridging Understanding and Generation to Actions",
+    "categories": ["cs.CV", "cs.AI", "cs.LG"],
+    "selection_reason": "マルチモーダルAIの理解から行動への橋渡しという実用性の高いアプローチで、実世界のアプリケーションに直接応用可能"
+  },
+  {
+    "id": "2509.06953v1",
+    "base_id": "2509.06953",
+    "tex_source_url": "https://arxiv.org/src/2509.06953",
+    "title": "Deep Reactive Policy: Learning Reactive Manipulator Motion Planning for Dynamic Environments",
+    "categories": ["cs.RO", "cs.AI"],
+    "selection_reason": "動的環境でのロボット操作という実用的課題に取り組み、リアルタイム反応制御の新しいアプローチを提案"
+  },
+  {
+    "id": "2509.06948v1",
+    "base_id": "2509.06948",
+    "tex_source_url": "https://arxiv.org/src/2509.06948",
+    "title": "Beyond Two-Stage Training: Cooperative SFT and RL for LLM Reasoning",
+    "categories": ["cs.CL", "cs.LG", "cs.AI"],
+    "selection_reason": "LLMの推論能力向上のための新しい訓練手法を提案し、従来の二段階訓練を超える協調的アプローチで影響力が期待される"
+  },
+  {
+    "id": "2509.06938v1",
+    "base_id": "2509.06938",
+    "tex_source_url": "https://arxiv.org/src/2509.06938",
+    "title": "From Noise to Narrative: Tracing the Origins of Hallucinations in Transformers",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "Transformerにおける幻覚現象の起源を解明する重要な研究で、AI安全性と信頼性向上に直結する課題に取り組んでいる"
+  }
+]
