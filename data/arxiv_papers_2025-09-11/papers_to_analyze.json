@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.07680v1",
+    "base_id": "2509.07680",
+    "tex_source_url": "https://arxiv.org/src/2509.07680",
+    "title": "CAViAR: Critic-Augmented Video Agentic Reasoning",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Novel critic-augmented approach for video reasoning with high practical applications in video understanding systems"
+  },
+  {
+    "id": "2509.07963v1",
+    "base_id": "2509.07963",
+    "tex_source_url": "https://arxiv.org/src/2509.07963",
+    "title": "Customizing the Inductive Biases of Softmax Attention using Structured Matrices",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Potential to impact all transformer-based models through novel structured matrix approach to attention mechanisms"
+  },
+  {
+    "id": "2509.07980v1", 
+    "base_id": "2509.07980",
+    "tex_source_url": "https://arxiv.org/src/2509.07980",
+    "title": "Parallel-R1: Towards Parallel Thinking via Reinforcement Learning",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Innovative parallel reasoning approach using RL that could improve reasoning systems fundamentally"
+  },
+  {
+    "id": "2509.07979v1",
+    "base_id": "2509.07979", 
+    "tex_source_url": "https://arxiv.org/src/2509.07979",
+    "title": "Visual Representation Alignment for Multimodal Large Language Models",
+    "categories": ["cs.CL", "cs.CV", "cs.AI"],
+    "selection_reason": "Highly practical for current multimodal systems, addresses important alignment challenges in multimodal LLMs"
+  }
+]
