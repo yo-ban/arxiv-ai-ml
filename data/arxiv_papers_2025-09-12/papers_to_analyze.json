@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.08827v1",
+    "base_id": "2509.08827",
+    "tex_source_url": "https://arxiv.org/src/2509.08827",
+    "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Comprehensive survey covering important intersection of RL and large reasoning models with high impact potential"
+  },
+  {
+    "id": "2509.08825v1",
+    "base_id": "2509.08825",
+    "tex_source_url": "https://arxiv.org/src/2509.08825",
+    "title": "Large Language Model Hacking: Quantifying the Hidden Risks of Using LLMs for Text Annotation",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "Critical security analysis with practical implications for safe LLM deployment in annotation tasks"
+  },
+  {
+    "id": "2509.08814v1",
+    "base_id": "2509.08814",
+    "tex_source_url": "https://arxiv.org/src/2509.08814",
+    "title": "Merge-of-Thought Distillation",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Novel knowledge distillation approach that could advance model compression and efficiency techniques"
+  },
+  {
+    "id": "2509.08809v1",
+    "base_id": "2509.08809",
+    "tex_source_url": "https://arxiv.org/src/2509.08809",
+    "title": "Evaluating LLMs Without Oracle Feedback: Agentic Annotation Evaluation Through Unsupervised Consistency Signals",
+    "categories": ["cs.CL", "cs.LG"],
+    "selection_reason": "Important evaluation methodology addressing critical need for oracle-free LLM assessment in practical deployments"
+  }
+]
