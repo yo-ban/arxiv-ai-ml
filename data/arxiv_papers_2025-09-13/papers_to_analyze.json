@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.09679v1",
+    "base_id": "2509.09679",
+    "tex_source_url": "https://arxiv.org/src/2509.09679",
+    "title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable Orthogonal Butterfly Transforms",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "高い実用性を持つ超低ビット量子化技術で、モデルのデプロイメントに直接応用可能。新しいbutterfly変換アプローチが既存手法に対して明確な改善を提供"
+  },
+  {
+    "id": "2509.09674v1", 
+    "base_id": "2509.09674",
+    "tex_source_url": "https://arxiv.org/src/2509.09674",
+    "title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Vision-Language-Action分野における重要な進歩で、強化学習によるスケーリング手法が実用的なロボティクスアプリケーションに大きな影響を与える"
+  },
+  {
+    "id": "2509.09660v1",
+    "base_id": "2509.09660", 
+    "tex_source_url": "https://arxiv.org/src/2509.09660",
+    "title": "Steering MoE LLMs via Expert (De)Activation",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "MoE（Mixture-of-Experts）モデルの制御に関する新規アプローチで、LLMの効率性向上に重要な貢献。エキスパートの動的制御により実用性が高い"
+  },
+  {
+    "id": "2509.09671v1",
+    "base_id": "2509.09671",
+    "tex_source_url": "https://arxiv.org/src/2509.09671", 
+    "title": "Dexplore: Scalable Neural Control for Dexterous Manipulation from Reference-Scoped Exploration",
+    "categories": ["cs.RO", "cs.AI"],
+    "selection_reason": "器用な操作タスクにおけるスケーラブルな神経制御手法で、実用的なロボティクス応用が可能。参照スコープ探索による新しいアプローチが完成度の高い実験で検証されている"
+  }
+]
