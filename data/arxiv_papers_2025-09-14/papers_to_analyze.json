@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.09680v1",
+    "base_id": "2509.09680",
+    "tex_source_url": "https://arxiv.org/src/2509.09680",
+    "title": "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning Dataset and Comprehensive Benchmark",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Million-scale text-to-image reasoning benchmark with high impact for multimodal AI research"
+  },
+  {
+    "id": "2509.09675v1",
+    "base_id": "2509.09675",
+    "tex_source_url": "https://arxiv.org/src/2509.09675",
+    "title": "CDE: Curiosity-Driven Exploration for Efficient Reinforcement Learning in Large Language Models",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Novel curiosity-driven approach for efficient RL in LLMs with practical applications"
+  },
+  {
+    "id": "2509.09677v1",
+    "base_id": "2509.09677",
+    "tex_source_url": "https://arxiv.org/src/2509.09677",
+    "title": "The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Important research on LLM capability limitations in long-horizon tasks"
+  },
+  {
+    "id": "2509.09658v1",
+    "base_id": "2509.09658",
+    "tex_source_url": "https://arxiv.org/src/2509.09658",
+    "title": "Measuring Epistemic Humility in Multimodal Large Language Models",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Critical for model reliability and safe deployment of multimodal models"
+  }
+]
