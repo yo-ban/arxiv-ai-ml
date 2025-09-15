@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.10446v1",
+    "base_id": "2509.10446",
+    "tex_source_url": "https://arxiv.org/src/2509.10446",
+    "title": "DeepDive: Advancing Deep Search Agents with Knowledge Graphs and Multi-Turn RL",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "実用性の高い検索エージェント技術で、知識グラフとマルチターンRLの組み合わせが新規性を持ち、情報検索分野への影響力が期待される"
+  },
+  {
+    "id": "2509.10441v1",
+    "base_id": "2509.10441",
+    "tex_source_url": "https://arxiv.org/src/2509.10441",
+    "title": "InfGen: A Resolution-Agnostic Paradigm for Scalable Image Synthesis",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "解像度に依存しない新しい画像生成パラダイムで、スケーラビリティの課題を解決する実用的なアプローチが評価される"
+  },
+  {
+    "id": "2509.10452v1",
+    "base_id": "2509.10452",
+    "tex_source_url": "https://arxiv.org/src/2509.10452",
+    "title": "WhisTLE: Deeply Supervised, Text-Only Domain Adaptation for Pretrained Speech Recognition Transformers",
+    "categories": ["cs.CL", "cs.LG"],
+    "selection_reason": "テキストのみでの音声認識ドメイン適応という実用性の高い手法で、事前学習モデルの展開課題に対する新規的なアプローチ"
+  },
+  {
+    "id": "2509.10406v1",
+    "base_id": "2509.10406",
+    "tex_source_url": "https://arxiv.org/src/2509.10406",
+    "title": "Multipole Semantic Attention: A Fast Approximation of Softmax Attention for Pretraining",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Transformer効率化のための新しいアテンション近似手法で、大規模モデルの計算効率改善に直接的に応用可能な実用性を持つ"
+  }
+]
