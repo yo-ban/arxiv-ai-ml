@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.12203v1",
+    "base_id": "2509.12203",
+    "tex_source_url": "https://arxiv.org/src/2509.12203",
+    "title": "LazyDrag: Enabling Stable Drag-Based Editing on Multi-Modal Diffusion Transformers via Explicit Correspondence",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "High practical value for image editing applications with novel stable drag-based approach on diffusion transformers"
+  },
+  {
+    "id": "2509.12201v1",
+    "base_id": "2509.12201",
+    "tex_source_url": "https://arxiv.org/src/2509.12201",
+    "title": "OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "High impact comprehensive dataset for 4D world modeling with 19 authors indicating thorough research"
+  },
+  {
+    "id": "2509.12194v1",
+    "base_id": "2509.12194",
+    "tex_source_url": "https://arxiv.org/src/2509.12194",
+    "title": "Advancing Medical Artificial Intelligence Using a Century of Cases",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "High impact for medical AI field utilizing extensive historical data with 23 authors suggesting comprehensive study"
+  },
+  {
+    "id": "2509.12196v1",
+    "base_id": "2509.12196",
+    "tex_source_url": "https://arxiv.org/src/2509.12196",
+    "title": "Dynamic Relational Priming Improves Transformer in Multivariate Time Series",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Novel approach to improve transformer performance for time series with high practical applications"
+  }
+]
