@@ -1,0 +1,10 @@
+[
+  {
+    "id": "2509.13317v1",
+    "base_id": "2509.13317",
+    "tex_source_url": "https://arxiv.org/src/2509.13317",
+    "title": "3D Aware Region Prompted Vision Language Model",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Vision-Language Modelの3D理解を向上させる新手法。実用的なマルチモーダルAIアプリケーションへの応用可能性が高く、CV分野の重要課題に取り組んでいる"
+  }
+]
