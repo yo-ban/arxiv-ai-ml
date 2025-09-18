@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.14234v1",
+    "base_id": "2509.14234",
+    "tex_source_url": "https://arxiv.org/src/2509.14234",
+    "title": "Compute as Teacher: Turning Inference Compute Into Reference-Free Supervision",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Novel training methodology that leverages inference compute for supervision, highly practical for improving model training efficiency"
+  },
+  {
+    "id": "2509.14233v1",
+    "base_id": "2509.14233",
+    "tex_source_url": "https://arxiv.org/src/2509.14233",
+    "title": "Apertus: Democratizing Open and Compliant LLMs for Global Language Environments",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "Large-scale effort (101 authors) addressing multilingual LLM democratization, high impact for global accessibility"
+  },
+  {
+    "id": "2509.14230v1",
+    "base_id": "2509.14230",
+    "tex_source_url": "https://arxiv.org/src/2509.14230",
+    "title": "NIRVANA: Structured pruning reimagined for large language models compression",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Practical compression technique for LLM deployment, directly applicable to real-world systems with resource constraints"
+  },
+  {
+    "id": "2509.14225v1",
+    "base_id": "2509.14225",
+    "tex_source_url": "https://arxiv.org/src/2509.14225",
+    "title": "Defending Diffusion Models Against Membership Inference Attacks via Higher-Order Langevin Dynamics",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Important privacy/security research for diffusion models, addresses critical concerns for generative AI deployment"
+  }
+]
