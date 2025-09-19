@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.15226v1",
+    "base_id": "2509.15226",
+    "tex_source_url": "https://arxiv.org/src/2509.15226",
+    "title": "Calibration-Aware Prompt Learning for Medical Vision-Language Models",
+    "categories": ["cs.CV", "cs.CL"],
+    "selection_reason": "高いインパクトを持つ医療AI分野での実用的なアプリケーション。プロンプト学習にキャリブレーションを組み込む新規アプローチ"
+  },
+  {
+    "id": "2509.15221v1",
+    "base_id": "2509.15221",
+    "tex_source_url": "https://arxiv.org/src/2509.15221",
+    "title": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "コンピュータ使用エージェントは極めて実用的で注目されている分野。クロスプラットフォームデータによるスケーリング手法は新規性が高い"
+  },
+  {
+    "id": "2509.15212v1",
+    "base_id": "2509.15212",
+    "tex_source_url": "https://arxiv.org/src/2509.15212",
+    "title": "RynnVLA-001: Using Human Demonstrations to Improve Robot Manipulation",
+    "categories": ["cs.RO", "cs.AI"],
+    "selection_reason": "Vision-Language-Actionモデルを用いたロボット操作は最先端技術。人間のデモンストレーションを活用する実用的アプローチ"
+  },
+  {
+    "id": "2509.15207v1",
+    "base_id": "2509.15207",
+    "tex_source_url": "https://arxiv.org/src/2509.15207",
+    "title": "FlowRL: Matching Reward Distributions for LLM Reasoning",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "LLMの推論能力向上は重要な課題。報酬分布マッチングによる新しいアプローチで大きなインパクトが期待される"
+  }
+]
