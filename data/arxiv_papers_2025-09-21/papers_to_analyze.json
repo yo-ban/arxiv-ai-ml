@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.15218v1",
+    "base_id": "2509.15218",
+    "tex_source_url": "https://arxiv.org/src/2509.15218",
+    "title": "LNE-Blocking: An Efficient Framework for Contamination Mitigation Evaluation on Large Language Models",
+    "categories": ["cs.CL", "cs.LG"],
+    "selection_reason": "重要なLLM評価手法論で、データ汚染問題への効率的なソリューションを提供"
+  },
+  {
+    "id": "2509.15225v1",
+    "base_id": "2509.15225",
+    "tex_source_url": "https://arxiv.org/src/2509.15225",
+    "title": "Lost in Translation? Vocabulary Alignment for Source-Free Domain Adaptation in Open-Vocabulary Semantic Segmentation",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "ソースフリードメイン適応の新規アプローチで、実用的なセマンティックセグメンテーション技術"
+  },
+  {
+    "id": "2509.15224v1",
+    "base_id": "2509.15224",
+    "tex_source_url": "https://arxiv.org/src/2509.15224",
+    "title": "Depth AnyEvent: A Cross-Modal Distillation Paradigm for Event-Based Monocular Depth Estimation",
+    "categories": ["cs.CV"],
+    "selection_reason": "イベントベースビジョンの革新的手法で、モノクラー深度推定への新しいクロスモーダル蒸留アプローチ"
+  },
+  {
+    "id": "2509.15220v1",
+    "base_id": "2509.15220",
+    "tex_source_url": "https://arxiv.org/src/2509.15220",
+    "title": "Lightweight and Accurate Multi-View Stereo with Confidence-Aware Diffusion Model",
+    "categories": ["cs.CV"],
+    "selection_reason": "拡散モデルを用いた軽量で高精度な3Dビジョン技術、実用的な多視点ステレオ手法"
+  }
+]
