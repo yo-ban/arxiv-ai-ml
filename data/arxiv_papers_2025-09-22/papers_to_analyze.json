@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.15219v1",
+    "base_id": "2509.15219",
+    "tex_source_url": "https://arxiv.org/src/2509.15219",
+    "title": "Out-of-Sight Trajectories: Tracking, Fusion, and Prediction",
+    "categories": ["cs.CV"],
+    "selection_reason": "High practical value for autonomous systems and robotics - addresses real challenge of tracking objects when they go out of sight"
+  },
+  {
+    "id": "2509.15217v1",
+    "base_id": "2509.15217",
+    "tex_source_url": "https://arxiv.org/src/2509.15217",
+    "title": "Generalizable Geometric Image Caption Synthesis",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Novel approach to image captioning with geometric focus - important for multimodal understanding and generalizable AI systems"
+  },
+  {
+    "id": "2509.15208v1",
+    "base_id": "2509.15208",
+    "tex_source_url": "https://arxiv.org/src/2509.15208",
+    "title": "Geometric Image Synchronization with Deep Watermarking",
+    "categories": ["cs.CV"],
+    "selection_reason": "Novel application combining geometry and watermarking - practical applications for content protection and image authentication"
+  },
+  {
+    "id": "2509.15210v1",
+    "base_id": "2509.15210",
+    "tex_source_url": "https://arxiv.org/src/2509.15210",
+    "title": "Explicit Context-Driven Neural Acoustic Modeling for High-Fidelity RIR Generation",
+    "categories": ["cs.SD", "eess.AS"],
+    "selection_reason": "Novel context-driven approach to acoustic modeling - important for audio processing applications and spatial audio systems"
+  }
+]
