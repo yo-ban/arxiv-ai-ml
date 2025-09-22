@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.16203v1",
+    "base_id": "2509.16203",
+    "tex_source_url": "https://arxiv.org/src/2509.16203",
+    "title": "Inverting Trojans in LLMs",
+    "categories": ["cs.AI", "cs.LG", "cs.CR"],
+    "selection_reason": "AI安全性における重要な課題であるトロイの木馬攻撃への対策技術。実用性が高く、LLMセキュリティ分野に大きな影響を与える可能性"
+  },
+  {
+    "id": "2509.16198v1",
+    "base_id": "2509.16198",
+    "tex_source_url": "https://arxiv.org/src/2509.16198",
+    "title": "RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation",
+    "categories": ["cs.AI", "cs.SE"],
+    "selection_reason": "統一的でスケーラブルなコード生成手法。14名の著者による充実した研究で、ソフトウェア開発の自動化に実用的な応用が期待される"
+  },
+  {
+    "id": "2509.16197v1",
+    "base_id": "2509.16197",
+    "tex_source_url": "https://arxiv.org/src/2509.16197",
+    "title": "MANZANO: A Simple and Scalable Unified Multimodal Model with a Hybrid Vision Tokenizer",
+    "categories": ["cs.CV", "cs.AI", "cs.LG"],
+    "selection_reason": "シンプルかつスケーラブルな統一マルチモーダルモデル。27名の著者による大規模研究で、視覚言語統合の新しいアプローチを提案"
+  },
+  {
+    "id": "2509.16187v1",
+    "base_id": "2509.16187",
+    "tex_source_url": "https://arxiv.org/src/2509.16187",
+    "title": "MatchFixAgent: Language-Agnostic Autonomous Repository-Level Code Translation Validation and Repair",
+    "categories": ["cs.SE", "cs.AI"],
+    "selection_reason": "言語に依存しない自律的なコード翻訳検証・修復システム。ソフトウェア開発における実用性が非常に高く、コード移植作業の自動化に直接応用可能"
+  }
+]
