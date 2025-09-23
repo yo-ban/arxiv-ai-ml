@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.18096v1",
+    "base_id": "2509.18096",
+    "tex_source_url": "https://arxiv.org/src/2509.18096",
+    "title": "Seg4Diff: Unveiling Open-Vocabulary Segmentation in Text-to-Image Diffusion Transformers",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Novel approach combining open-vocabulary segmentation with diffusion transformers, addressing important computer vision challenges with potential applications in image editing and generation systems"
+  },
+  {
+    "id": "2509.18095v1",
+    "base_id": "2509.18095",
+    "tex_source_url": "https://arxiv.org/src/2509.18095",
+    "title": "MetaEmbed: Scaling Multimodal Retrieval at Test-Time with Flexible Late Interaction",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Addresses scalability challenges in multimodal retrieval systems with test-time scaling approach, directly applicable to real-world search and retrieval applications"
+  },
+  {
+    "id": "2509.18091v1",
+    "base_id": "2509.18091",
+    "tex_source_url": "https://arxiv.org/src/2509.18091",
+    "title": "OnePiece: Bringing Context Engineering and Reasoning to Industrial Cascade Ranking System",
+    "categories": ["cs.LG", "cs.IR"],
+    "selection_reason": "Industrial application with 16 authors suggesting real-world validation, introduces context engineering and reasoning to ranking systems which are widely deployed in practice"
+  },
+  {
+    "id": "2509.18085v1",
+    "base_id": "2509.18085",
+    "tex_source_url": "https://arxiv.org/src/2509.18085",
+    "title": "Spiffy: Multiplying Diffusion LLM Acceleration via Lossless Speculative Decoding",
+    "categories": ["cs.LG", "cs.CL"],
+    "selection_reason": "Addresses critical efficiency challenges in LLM inference through lossless speculative decoding for diffusion LLMs, essential for practical deployment of large models"
+  }
+]
