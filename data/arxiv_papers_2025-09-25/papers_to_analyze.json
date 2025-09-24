@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.19301v1",
+    "base_id": "2509.19301",
+    "tex_source_url": "https://arxiv.org/src/2509.19301",
+    "title": "Residual Off-Policy RL for Finetuning Behavior Cloning Policies",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Novel approach to combining off-policy RL with behavior cloning for practical robot learning applications"
+  },
+  {
+    "id": "2509.19297v1",
+    "base_id": "2509.19297",
+    "tex_source_url": "https://arxiv.org/src/2509.19297",
+    "title": "VolSplat: Rethinking Feed-Forward 3D Gaussian Splatting with Voxel-Aligned Prediction",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Innovative improvement to 3D Gaussian splatting with high practical impact for real-time 3D rendering"
+  },
+  {
+    "id": "2509.19296v1",
+    "base_id": "2509.19296",
+    "tex_source_url": "https://arxiv.org/src/2509.19296",
+    "title": "Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Novel combination of video diffusion and self-distillation for practical 3D scene reconstruction from limited data"
+  },
+  {
+    "id": "2509.19292v1",
+    "base_id": "2509.19292",
+    "tex_source_url": "https://arxiv.org/src/2509.19292",
+    "title": "SOE: Sample-Efficient Robot Policy Self-Improvement via On-Manifold Exploration",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Addresses critical sample efficiency problem in robotics with novel manifold-based exploration approach"
+  }
+]
