@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.20357v1",
+    "base_id": "2509.20357",
+    "tex_source_url": "https://arxiv.org/src/2509.20357",
+    "title": "Language Models that Think, Chat Better",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "革新的な推論能力向上手法で、LLM分野に大きなインパクト。実用性と新規性が高い"
+  },
+  {
+    "id": "2509.20360v1",
+    "base_id": "2509.20360",
+    "tex_source_url": "https://arxiv.org/src/2509.20360",
+    "title": "EditVerse: Unifying Image and Video Editing and Generation with In-Context Learning",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "マルチモーダル編集の統合アプローチで、実用的価値が非常に高く、新規性も優れている"
+  },
+  {
+    "id": "2509.20328v1",
+    "base_id": "2509.20328",
+    "tex_source_url": "https://arxiv.org/src/2509.20328",
+    "title": "Video models are zero-shot learners and reasoners",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "ゼロショット動画理解の革新的手法で、AI分野への影響力が大きく、完成度も高い"
+  },
+  {
+    "id": "2509.20324v1",
+    "base_id": "2509.20324",
+    "tex_source_url": "https://arxiv.org/src/2509.20324",
+    "title": "RAG Security and Privacy: Formalizing the Threat Model and Attack Surface",
+    "categories": ["cs.CR", "cs.AI"],
+    "selection_reason": "RAGシステムのセキュリティ形式化という重要課題に取り組み、実用性と影響力が非常に高い"
+  }
+]
