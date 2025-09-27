@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.21309v1",
+    "base_id": "2509.21309",
+    "tex_source_url": "https://arxiv.org/src/2509.21309",
+    "title": "NewtonGen: Physics-Consistent and Controllable Text-to-Video Generation via Neural Newtonian Dynamics",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Novel physics-consistent approach to video generation with potential for real-world applications in content creation and simulation"
+  },
+  {
+    "id": "2509.21305v1",
+    "base_id": "2509.21305",
+    "tex_source_url": "https://arxiv.org/src/2509.21305",
+    "title": "Sycophancy Is Not One Thing: Causal Separation of Sycophantic Behaviors in LLMs",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "Important for AI safety and alignment, addresses critical issue of sycophantic behavior in large language models"
+  },
+  {
+    "id": "2509.21284v1",
+    "base_id": "2509.21284",
+    "tex_source_url": "https://arxiv.org/src/2509.21284",
+    "title": "Bounds of Chain-of-Thought Robustness: Reasoning Steps, Embed Norms, and Beyond",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Addresses fundamental questions about reasoning robustness in AI systems, important for understanding and improving chain-of-thought methods"
+  },
+  {
+    "id": "2509.21317v1",
+    "base_id": "2509.21317",
+    "tex_source_url": "https://arxiv.org/src/2509.21317",
+    "title": "Interactive Recommendation Agent with Active User Commands",
+    "categories": ["cs.AI", "cs.IR"],
+    "selection_reason": "Highly practical for real-world recommendation systems, addresses user interaction and personalization challenges"
+  }
+]
