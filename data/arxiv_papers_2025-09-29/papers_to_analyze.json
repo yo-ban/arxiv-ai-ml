@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.21296v1",
+    "base_id": "2509.21296",
+    "tex_source_url": "https://arxiv.org/src/2509.21296",
+    "title": "No Prior, No Leakage: Revisiting Reconstruction Attacks in Trained Neural Networks",
+    "categories": ["cs.LG", "cs.CR"],
+    "selection_reason": "重要なプライバシー・セキュリティ研究で、訓練済みニューラルネットワークに対する再構築攻撃の新たな知見を提供"
+  },
+  {
+    "id": "2509.21287v1",
+    "base_id": "2509.21287",
+    "tex_source_url": "https://arxiv.org/src/2509.21287",
+    "title": "DisCoCLIP: A Distributional Compositional Tensor Network Encoder for Vision-Language Understanding",
+    "categories": ["cs.CV", "cs.CL"],
+    "selection_reason": "視覚言語理解における新規な分散構成手法で、テンソルネットワークを活用した革新的アプローチ"
+  },
+  {
+    "id": "2509.21294v1",
+    "base_id": "2509.21294",
+    "tex_source_url": "https://arxiv.org/src/2509.21294",
+    "title": "The role of synthetic data in Multilingual, Multi-cultural AI systems: Lessons from Indic Languages",
+    "categories": ["cs.CL", "cs.LG"],
+    "selection_reason": "多言語・多文化AIシステムにおける合成データの役割を分析し、AI民主化の重要な課題に取り組む"
+  },
+  {
+    "id": "2509.21302v1",
+    "base_id": "2509.21302",
+    "tex_source_url": "https://arxiv.org/src/2509.21302",
+    "title": "Quantized Visual Geometry Grounded Transformer",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "視覚幾何学に基づく量子化Transformerで、効率的な視覚モデルへの実用的応用が期待される"
+  }
+]
