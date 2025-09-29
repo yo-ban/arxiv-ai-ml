@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.22651v1",
+    "base_id": "2509.22651",
+    "tex_source_url": "https://arxiv.org/src/2509.22651",
+    "title": "VoiceAssistant-Eval: Benchmarking AI Assistants across Listening, Speaking, and Viewing",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Comprehensive benchmarking framework for multimodal AI assistants with high practical value for evaluation standardization"
+  },
+  {
+    "id": "2509.22652v1",
+    "base_id": "2509.22652",
+    "tex_source_url": "https://arxiv.org/src/2509.22652",
+    "title": "Pixel Motion Diffusion is What We Need for Robot Control",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Novel application of diffusion models to robotics control with direct practical applications in autonomous systems"
+  },
+  {
+    "id": "2509.22644v1",
+    "base_id": "2509.22644",
+    "tex_source_url": "https://arxiv.org/src/2509.22644",
+    "title": "WebGen-Agent: Enhancing Interactive Website Generation with Multi-Level Feedback and Step-Level Reinforcement Learning",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Practical web development application using RL with multi-level feedback, addressing real-world automation needs"
+  },
+  {
+    "id": "2509.22638v1",
+    "base_id": "2509.22638",
+    "tex_source_url": "https://arxiv.org/src/2509.22638",
+    "title": "Language Models Can Learn from Verbal Feedback Without Scalar Rewards",
+    "categories": ["cs.CL", "cs.LG"],
+    "selection_reason": "Innovative training approach for language models eliminating need for scalar rewards, potentially transforming LM training paradigm"
+  }
+]
