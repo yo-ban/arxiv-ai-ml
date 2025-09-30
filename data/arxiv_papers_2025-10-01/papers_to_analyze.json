@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.25140v1",
+    "base_id": "2509.25140",
+    "tex_source_url": "https://arxiv.org/src/2509.25140",
+    "title": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Cutting-edge approach to agent self-evolution with reasoning memory, addressing a fundamental challenge in AI agent development"
+  },
+  {
+    "id": "2509.25137v1",
+    "base_id": "2509.25137",
+    "tex_source_url": "https://arxiv.org/src/2509.25137",
+    "title": "The Era of Real-World Human Interaction: RL from User Conversations",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Novel approach to real-world RL deployment using actual user conversations, bridging the gap between lab research and practical applications"
+  },
+  {
+    "id": "2509.25131v1",
+    "base_id": "2509.25131",
+    "tex_source_url": "https://arxiv.org/src/2509.25131",
+    "title": "MGM-Omni: Scaling Omni LLMs to Personalized Long-Horizon Speech",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "Advanced multimodal LLM work focusing on personalized long-horizon speech, representing cutting-edge development in omni-modal AI"
+  },
+  {
+    "id": "2509.25148v1",
+    "base_id": "2509.25148",
+    "tex_source_url": "https://arxiv.org/src/2509.25148",
+    "title": "UniAPL: A Unified Adversarial Preference Learning Framework for Instruct-Following",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Important framework for LLM alignment using adversarial preference learning, addressing critical instruction-following challenges"
+  }
+]
