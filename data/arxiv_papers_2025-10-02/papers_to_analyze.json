@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2509.26644v1",
+    "base_id": "2509.26644",
+    "tex_source_url": "https://arxiv.org/src/2509.26644",
+    "title": "Stitch: Training-Free Position Control in Multimodal Diffusion Transformers",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Novel training-free approach for position control in diffusion models with high practical value for image generation applications"
+  },
+  {
+    "id": "2509.26645v1", 
+    "base_id": "2509.26645",
+    "tex_source_url": "https://arxiv.org/src/2509.26645",
+    "title": "TTT3R: 3D Reconstruction as Test-Time Training",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Innovative test-time training approach for 3D reconstruction with broad applications in computer vision and robotics"
+  },
+  {
+    "id": "2509.26636v1",
+    "base_id": "2509.26636", 
+    "tex_source_url": "https://arxiv.org/src/2509.26636",
+    "title": "AccidentBench: Benchmarking Multimodal Understanding and Reasoning in Vehicle Accidents and Beyond",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "High-impact benchmark for safety-critical applications in autonomous vehicles with practical importance for road safety"
+  },
+  {
+    "id": "2509.26626v1",
+    "base_id": "2509.26626",
+    "tex_source_url": "https://arxiv.org/src/2509.26626", 
+    "title": "Recursive Self-Aggregation Unlocks Deep Thinking in Large Language Models",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "Novel recursive approach to improve LLM reasoning capabilities, addressing core challenges in AI thinking and decision making"
+  }
+]
