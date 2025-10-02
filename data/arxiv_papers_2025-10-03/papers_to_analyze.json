@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2509.26643v1",
+    "base_id": "2509.26643",
+    "tex_source_url": "https://arxiv.org/src/2509.26643",
+    "title": "Convergence and Divergence of Language Models under Different Random Seeds",
+    "categories": ["cs.CL", "cs.LG"],
+    "selection_reason": "重要な言語モデルの再現性と確率性に関する研究。モデルの信頼性と動作理解に対する高い影響力を持つ"
+  },
+  {
+    "id": "2509.26641v1",
+    "base_id": "2509.26641",
+    "tex_source_url": "https://arxiv.org/src/2509.26641",
+    "title": "Query-Kontext: An Unified Multimodal Model for Image Generation and Editing",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "統一されたマルチモーダルアプローチによる画像生成・編集技術。実用的なアプリケーションへの応用可能性が高く、新規性のあるアプローチ"
+  },
+  {
+    "id": "2509.26640v1",
+    "base_id": "2509.26640",
+    "tex_source_url": "https://arxiv.org/src/2509.26640",
+    "title": "SPATA: Systematic Pattern Analysis for Detailed and Transparent Data Cards",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "データの透明性と責任あるAIのための重要なツール。データガバナンスと分析の実用的な手法を提供"
+  }
+]
