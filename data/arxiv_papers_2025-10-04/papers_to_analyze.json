@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2510.02312v1",
+    "base_id": "2510.02312",
+    "tex_source_url": "https://arxiv.org/src/2510.02312",
+    "title": "KaVa: Latent Reasoning via Compressed KV-Cache Distillation",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "High practical value for LLM efficiency, addresses critical memory and computation bottlenecks in large language models"
+  },
+  {
+    "id": "2510.02313v1",
+    "base_id": "2510.02313",
+    "tex_source_url": "https://arxiv.org/src/2510.02313",
+    "title": "Clink! Chop! Thud! -- Learning Object Sounds from Real-World Interactions",
+    "categories": ["cs.AI", "cs.CV"],
+    "selection_reason": "Novel multimodal approach combining audio and visual learning with clear applications in robotics and embodied AI"
+  },
+  {
+    "id": "2510.02295v1",
+    "base_id": "2510.02295",
+    "tex_source_url": "https://arxiv.org/src/2510.02295",
+    "title": "VideoNSA: Native Sparse Attention Scales Video Understanding",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Addresses scalability challenges in video understanding with practical efficiency improvements for attention mechanisms"
+  },
+  {
+    "id": "2510.02306v1",
+    "base_id": "2510.02306",
+    "tex_source_url": "https://arxiv.org/src/2510.02306",
+    "title": "Drawing Conclusions from Draws: Rethinking Preference Semantics in Arena-Style LLM Evaluation",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "Important methodology improvement for LLM evaluation that addresses fundamental issues in preference-based assessment"
+  }
+]
