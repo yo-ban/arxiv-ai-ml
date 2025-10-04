@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2510.02311v1",
+    "base_id": "2510.02311",
+    "tex_source_url": "https://arxiv.org/src/2510.02311",
+    "title": "Inferring Dynamic Physical Properties from Video Foundation Models",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Novel application of video foundation models to infer physical properties, with strong practical value for robotics and autonomous systems"
+  },
+  {
+    "id": "2510.02315v1",
+    "base_id": "2510.02315",
+    "tex_source_url": "https://arxiv.org/src/2510.02315",
+    "title": "Optimal Control Meets Flow Matching: A Principled Route to Multi-Subject Fidelity",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Principled approach combining optimal control theory with flow matching for multi-subject scenarios, high theoretical and practical impact"
+  },
+  {
+    "id": "2510.02307v1",
+    "base_id": "2510.02307",
+    "tex_source_url": "https://arxiv.org/src/2510.02307",
+    "title": "NoiseShift: Resolution-Aware Noise Recalibration for Better Low-Resolution Image Generation",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Practical improvement for image generation addressing real-world resolution challenges, directly applicable to current generative models"
+  },
+  {
+    "id": "2510.02305v1",
+    "base_id": "2510.02305",
+    "tex_source_url": "https://arxiv.org/src/2510.02305",
+    "title": "Diffusion Models and the Manifold Hypothesis: Log-Domain Smoothing is Geometry Adaptive",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Important theoretical insights into diffusion models with practical implications for model design and performance optimization"
+  }
+]
