@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2510.02297v1",
+    "base_id": "2510.02297",
+    "tex_source_url": "https://arxiv.org/src/2510.02297",
+    "title": "Interactive Training: Feedback-Driven Neural Network Optimization",
+    "categories": ["cs.LG"],
+    "selection_reason": "Novel training methodology with feedback-driven optimization, has broad applications for improving neural network training efficiency and effectiveness"
+  },
+  {
+    "id": "2510.02294v1",
+    "base_id": "2510.02294",
+    "tex_source_url": "https://arxiv.org/src/2510.02294",
+    "title": "F2LLM Technical Report: Matching SOTA Embedding Performance with 6 Million Open-Source Data",
+    "categories": ["cs.LG"],
+    "selection_reason": "Practical achievement in embedding models with open-source data, demonstrates high completeness with benchmark results and real-world applicability"
+  },
+  {
+    "id": "2510.02300v1",
+    "base_id": "2510.02300",
+    "tex_source_url": "https://arxiv.org/src/2510.02300",
+    "title": "Equilibrium Matching: Generative Modeling with Implicit Energy-Based Models",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Novel approach to generative modeling using implicit energy-based models, addresses important challenges in generative AI with theoretical innovation"
+  },
+  {
+    "id": "2510.02296v1",
+    "base_id": "2510.02296",
+    "tex_source_url": "https://arxiv.org/src/2510.02296",
+    "title": "Continual Personalization for Diffusion Models",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Practical improvement for diffusion model personalization, addresses continual learning challenges in generative models with real applications"
+  }
+]
