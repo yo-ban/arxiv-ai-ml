@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2510.03232v1",
+    "base_id": "2510.03232",
+    "tex_source_url": "https://arxiv.org/src/2510.03232",
+    "title": "LEAML: Label-Efficient Adaptation to Out-of-Distribution Visual Tasks for Multimodal Large Language Models",
+    "categories": ["cs.CV", "cs.AI", "cs.LG"],
+    "selection_reason": "実用的なマルチモーダルLLMの領域適応技術で、ラベル効率という実際の課題に対応"
+  },
+  {
+    "id": "2510.03230v1",
+    "base_id": "2510.03230",
+    "tex_source_url": "https://arxiv.org/src/2510.03230",
+    "title": "Improving GUI Grounding with Explicit Position-to-Coordinate Mapping",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "UIオートメーションの実用性が高く、明示的な座標マッピングという新しいアプローチ"
+  },
+  {
+    "id": "2510.03223v1",
+    "base_id": "2510.03223",
+    "tex_source_url": "https://arxiv.org/src/2510.03223",
+    "title": "Self-Anchor: Large Language Model Reasoning via Step-by-step Attention Alignment",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "LLMの推論能力向上という重要課題に、注意機構の段階的整列という新手法でアプローチ"
+  },
+  {
+    "id": "2510.03217v1",
+    "base_id": "2510.03217",
+    "tex_source_url": "https://arxiv.org/src/2510.03217",
+    "title": "Abstain and Validate: A Dual-LLM Policy for Reducing Noise in Agentic Program Repair",
+    "categories": ["cs.SE", "cs.AI"],
+    "selection_reason": "プログラム自動修復の実用的課題に、2つのLLMによる検証という新しいアプローチで対応"
+  }
+]
