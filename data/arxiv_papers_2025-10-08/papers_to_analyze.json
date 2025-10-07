@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2510.05095v1",
+    "base_id": "2510.05095",
+    "tex_source_url": "https://arxiv.org/src/2510.05095",
+    "title": "From Noisy Traces to Stable Gradients: Bias-Variance Optimized Preference Optimization for Aligning Large Reasoning Models",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "LLM alignment and reasoning improvement - critical for AI safety and practical deployment of reasoning models"
+  },
+  {
+    "id": "2510.05092v1",
+    "base_id": "2510.05092",
+    "tex_source_url": "https://arxiv.org/src/2510.05092",
+    "title": "Learning to Interpret Weight Differences in Language Models",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Model interpretability breakthrough - essential for understanding and improving language model behavior"
+  },
+  {
+    "id": "2510.05087v1",
+    "base_id": "2510.05087",
+    "tex_source_url": "https://arxiv.org/src/2510.05087",
+    "title": "TeachLM: Post-Training LLMs for Education Using Authentic Learning Data",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "High practical value for educational applications with novel domain-specific post-training approach"
+  },
+  {
+    "id": "2510.05077v1",
+    "base_id": "2510.05077", 
+    "tex_source_url": "https://arxiv.org/src/2510.05077",
+    "title": "Slm-mux: Orchestrating small language models for reasoning",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Novel approach to LLM efficiency and orchestration - addresses scalability and cost challenges"
+  }
+]
