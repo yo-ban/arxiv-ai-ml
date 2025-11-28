@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2511.21689v1",
+    "base_id": "2511.21689",
+    "tex_source_url": "https://arxiv.org/src/2511.21689",
+    "title": "ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Novel approach to AI system orchestration with high practical value for real-world applications"
+  },
+  {
+    "id": "2511.21691v1",
+    "base_id": "2511.21691",
+    "tex_source_url": "https://arxiv.org/src/2511.21691",
+    "title": "Canvas-to-Image: Compositional Image Generation with Multimodal Controls",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Innovative multimodal control approach for compositional image generation with strong creative applications"
+  },
+  {
+    "id": "2511.21690v1",
+    "base_id": "2511.21690",
+    "tex_source_url": "https://arxiv.org/src/2511.21690",
+    "title": "TraceGen: World Modeling in 3D Trace Space Enables Learning from Cross-Embodiment Videos",
+    "categories": ["cs.AI", "cs.RO"],
+    "selection_reason": "Novel world modeling approach with significant impact potential for robotics and embodied AI systems"
+  },
+  {
+    "id": "2511.21688v1",
+    "base_id": "2511.21688",
+    "tex_source_url": "https://arxiv.org/src/2511.21688",
+    "title": "G$^2$VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Unified approach combining VLM with 3D reasoning capabilities, high practical value for 3D applications"
+  }
+]
