@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2511.21669v1",
+    "base_id": "2511.21669",
+    "tex_source_url": "https://arxiv.org/src/2511.21669",
+    "title": "DSD: A Distributed Speculative Decoding Solution for Edge-Cloud Agile Large Model Serving",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "LLM推論最適化の実用性が高く、エッジ・クラウド分散処理による推論高速化は現在の重要課題"
+  },
+  {
+    "id": "2511.21686v1",
+    "base_id": "2511.21686",
+    "tex_source_url": "https://arxiv.org/src/2511.21686",
+    "title": "Matrix: Peer-to-Peer Multi-Agent Synthetic Data Generation Framework",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "合成データ生成の実用性とP2Pマルチエージェントアプローチの新規性、データ不足解決への影響力"
+  },
+  {
+    "id": "2511.21678v1",
+    "base_id": "2511.21678",
+    "tex_source_url": "https://arxiv.org/src/2511.21678",
+    "title": "Agentic Learner with Grow-and-Refine Multimodal Semantic Memory",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "AIエージェントの記憶システムとマルチモーダル学習の組み合わせ、現在のエージェント開発トレンドに直結"
+  },
+  {
+    "id": "2511.21681v1",
+    "base_id": "2511.21681",
+    "tex_source_url": "https://arxiv.org/src/2511.21681",
+    "title": "Seeing without Pixels: Perception from Camera Trajectories",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "ピクセル情報なしでの認識という新規アプローチ、コンピュータビジョンの根本的な発想転換の可能性"
+  }
+]
