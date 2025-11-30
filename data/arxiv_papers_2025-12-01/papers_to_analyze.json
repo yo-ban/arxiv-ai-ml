@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2511.21692v1",
+    "base_id": "2511.21692", 
+    "tex_source_url": "https://arxiv.org/src/2511.21692",
+    "title": "Revisiting Generalization Across Difficulty Levels: It's Not So Easy",
+    "categories": ["cs.LG"],
+    "selection_reason": "Important foundational research on generalization across difficulty levels, addressing a core ML challenge with high impact potential"
+  },
+  {
+    "id": "2511.21666v1",
+    "base_id": "2511.21666",
+    "tex_source_url": "https://arxiv.org/src/2511.21666", 
+    "title": "Uncertainty Quantification for Visual Object Pose Estimation",
+    "categories": ["cs.CV"],
+    "selection_reason": "Practical computer vision application with uncertainty quantification, valuable for real-world deployment of pose estimation systems"
+  },
+  {
+    "id": "2511.21667v1",
+    "base_id": "2511.21667",
+    "tex_source_url": "https://arxiv.org/src/2511.21667",
+    "title": "Escaping the Verifier: Learning to Reason via Demonstrations", 
+    "categories": ["cs.AI"],
+    "selection_reason": "Novel approach to reasoning through demonstrations, addressing the important challenge of verification in AI reasoning systems"
+  },
+  {
+    "id": "2511.21673v1",
+    "base_id": "2511.21673",
+    "tex_source_url": "https://arxiv.org/src/2511.21673",
+    "title": "Revolutionizing Glioma Segmentation & Grading Using 3D MRI - Guided Hybrid Deep Learning Models",
+    "categories": ["cs.CV", "cs.AI"], 
+    "selection_reason": "High-impact medical AI application with practical clinical value, combining 3D MRI analysis with hybrid deep learning approaches"
+  }
+]
