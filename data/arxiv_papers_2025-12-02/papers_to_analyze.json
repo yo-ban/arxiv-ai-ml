@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2511.23478v1",
+    "base_id": "2511.23478",
+    "tex_source_url": "https://arxiv.org/src/2511.23478",
+    "title": "Video-R2: Reinforcing Consistent and Grounded Reasoning in Multimodal Language Models",
+    "categories": ["cs.AI", "cs.CL", "cs.CV"],
+    "selection_reason": "マルチモーダルAIにおける推論一貫性の重要課題に取り組み、実用性が高い"
+  },
+  {
+    "id": "2511.23476v1", 
+    "base_id": "2511.23476",
+    "tex_source_url": "https://arxiv.org/src/2511.23476",
+    "title": "Thinking by Doing: Building Efficient World Model Reasoning in LLMs via Multi-turn Interaction",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "世界モデル推論という基本的なAI課題に対するマルチターン相互作用という新しいアプローチ"
+  },
+  {
+    "id": "2511.23473v1",
+    "base_id": "2511.23473", 
+    "tex_source_url": "https://arxiv.org/src/2511.23473",
+    "title": "ThetaEvolve: Test-time Learning on Open Problems",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "テスト時学習は新興分野で適応シナリオに高い実用性を持つ"
+  },
+  {
+    "id": "2511.23455v1",
+    "base_id": "2511.23455",
+    "tex_source_url": "https://arxiv.org/src/2511.23455", 
+    "title": "The Price of Progress: Algorithmic Efficiency and the Falling Cost of AI Inference",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "AI推論の効率性とコストに関する実用的課題で、AI普及に高い影響力"
+  }
+]
