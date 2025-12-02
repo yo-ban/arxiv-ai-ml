@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2512.02008v1",
+    "base_id": "2512.02008",
+    "tex_source_url": "https://arxiv.org/src/2512.02008",
+    "title": "The Art of Scaling Test-Time Compute for Large Language Models",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "Critical research on LLM efficiency and test-time compute scaling - highly practical for current deployment challenges"
+  },
+  {
+    "id": "2512.01996v1",
+    "base_id": "2512.01996",
+    "tex_source_url": "https://arxiv.org/src/2512.01996",
+    "title": "Learning Sim-to-Real Humanoid Locomotion in 15 Minutes",
+    "categories": ["cs.AI", "cs.RO"],
+    "selection_reason": "Exceptional learning speed (15 minutes) addresses major sim-to-real challenge in robotics with high practical impact"
+  },
+  {
+    "id": "2512.02020v1",
+    "base_id": "2512.02020",
+    "tex_source_url": "https://arxiv.org/src/2512.02020",
+    "title": "EfficientFlow: Efficient Equivariant Flow Policy Learning for Embodied AI",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Novel combination of equivariant flows and policy learning for embodied AI - addresses efficiency in an important research area"
+  },
+  {
+    "id": "2512.02004v1",
+    "base_id": "2512.02004",
+    "tex_source_url": "https://arxiv.org/src/2512.02004",
+    "title": "AlignSAE: Concept-Aligned Sparse Autoencoders",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Important advancement in AI interpretability through concept-aligned sparse autoencoders - critical for AI safety and understanding"
+  }
+]
