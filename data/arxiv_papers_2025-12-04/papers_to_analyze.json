@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2512.03043v1",
+    "base_id": "2512.03043",
+    "tex_source_url": "https://arxiv.org/src/2512.03043",
+    "title": "OneThinker: All-in-one Reasoning Model for Image and Video",
+    "categories": ["cs.AI", "cs.CV"],
+    "selection_reason": "Unified reasoning model across image and video modalities with high impact potential for multimodal AI applications"
+  },
+  {
+    "id": "2512.03026v1",
+    "base_id": "2512.03026",
+    "tex_source_url": "https://arxiv.org/src/2512.03026",
+    "title": "The Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "Critical AI safety topic for ethical evaluation of LLMs, addressing important responsible AI deployment concerns"
+  },
+  {
+    "id": "2512.03025v1",
+    "base_id": "2512.03025",
+    "tex_source_url": "https://arxiv.org/src/2512.03025",
+    "title": "LORE: A Large Generative Model for Search Relevance",
+    "categories": ["cs.IR", "cs.AI"],
+    "selection_reason": "Highly practical application for search relevance with broad commercial and research impact"
+  },
+  {
+    "id": "2512.03024v1",
+    "base_id": "2512.03024",
+    "tex_source_url": "https://arxiv.org/src/2512.03024",
+    "title": "TokenPowerBench: Benchmarking the Power Consumption of LLM Inference",
+    "categories": ["cs.LG", "cs.PF"],
+    "selection_reason": "Important energy efficiency benchmarking for sustainable AI deployment, addressing critical resource optimization"
+  }
+]
