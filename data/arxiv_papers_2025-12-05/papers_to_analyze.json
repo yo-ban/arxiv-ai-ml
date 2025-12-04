@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2512.04085v1",
+    "base_id": "2512.04085",
+    "tex_source_url": "https://arxiv.org/src/2512.04085",
+    "title": "Unique Lives, Shared World: Learning from Single-Life Videos",
+    "categories": ["cs.CV"],
+    "selection_reason": "Novel approach to video learning with high practical value for video understanding systems and real-world applications"
+  },
+  {
+    "id": "2512.04082v1",
+    "base_id": "2512.04082",
+    "tex_source_url": "https://arxiv.org/src/2512.04082",
+    "title": "PosterCopilot: Toward Layout Reasoning and Controllable Editing for Professional Graphic Design",
+    "categories": ["cs.CV"],
+    "selection_reason": "Highly practical AI application for graphic design industry with strong commercial potential and real-world utility"
+  },
+  {
+    "id": "2512.04069v1",
+    "base_id": "2512.04069",
+    "tex_source_url": "https://arxiv.org/src/2512.04069",
+    "title": "SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL",
+    "categories": ["cs.CV", "cs.RO"],
+    "selection_reason": "Innovative approach combining spatial reasoning with tool augmentation, important for robotics and AI agent applications"
+  },
+  {
+    "id": "2512.04040v1",
+    "base_id": "2512.04040",
+    "tex_source_url": "https://arxiv.org/src/2512.04040",
+    "title": "RELIC: Interactive Video World Model with Long-Horizon Memory",
+    "categories": ["cs.CV"],
+    "selection_reason": "Critical advancement for AI agents and robotics with long-term planning capabilities, addressing key challenges in video world modeling"
+  }
+]
