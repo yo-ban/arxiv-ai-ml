@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2512.05117v1",
+    "base_id": "2512.05117",
+    "tex_source_url": "https://arxiv.org/src/2512.05117",
+    "title": "The Universal Weight Subspace Hypothesis",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "ニューラルネットワークの重み空間に関する基礎的で高影響力の理論研究"
+  },
+  {
+    "id": "2512.05111v1", 
+    "base_id": "2512.05111",
+    "tex_source_url": "https://arxiv.org/src/2512.05111",
+    "title": "ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning",
+    "categories": ["cs.AI", "cs.LG", "cs.CV"],
+    "selection_reason": "マルチモーダルAI分野での実用的な進歩、エージェント型ツール使用と視覚的推論の統合"
+  },
+  {
+    "id": "2512.05105v1",
+    "base_id": "2512.05105", 
+    "tex_source_url": "https://arxiv.org/src/2512.05105",
+    "title": "Semantic Soft Bootstrapping: Long Context Reasoning in LLMs without Reinforcement Learning",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "強化学習を使わないLLMの長文脈推論への新しいアプローチ、重要な技術課題への対処"
+  },
+  {
+    "id": "2512.05103v1",
+    "base_id": "2512.05103",
+    "tex_source_url": "https://arxiv.org/src/2512.05103", 
+    "title": "TV2TV: A Unified Framework for Interleaved Language and Video Generation",
+    "categories": ["cs.AI", "cs.CV", "cs.CL"],
+    "selection_reason": "言語と動画の統合生成における新規性の高い統一フレームワーク、マルチモーダル生成の進歩"
+  }
+]
