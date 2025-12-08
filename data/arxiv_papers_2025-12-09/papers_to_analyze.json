@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2512.05965v1",
+    "base_id": "2512.05965",
+    "tex_source_url": "https://arxiv.org/src/2512.05965",
+    "title": "EditThinker: Unlocking Iterative Reasoning for Any Image Editor",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Novel iterative reasoning approach for image editing with high practical impact and broad applicability"
+  },
+  {
+    "id": "2512.05959v1",
+    "base_id": "2512.05959",
+    "tex_source_url": "https://arxiv.org/src/2512.05959",
+    "title": "M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG",
+    "categories": ["cs.CL", "cs.AI"],
+    "selection_reason": "Massive-scale multimodal RAG system addressing multilingual/cultural aspects with significant practical applications"
+  },
+  {
+    "id": "2512.05955v1",
+    "base_id": "2512.05955",
+    "tex_source_url": "https://arxiv.org/src/2512.05955",
+    "title": "SIMPACT: Simulation-Enabled Action Planning using Vision-Language Models",
+    "categories": ["cs.CV", "cs.AI", "cs.RO"],
+    "selection_reason": "Novel simulation-enabled planning approach combining vision-language models with practical robotics applications"
+  },
+  {
+    "id": "2512.05954v1",
+    "base_id": "2512.05954",
+    "tex_source_url": "https://arxiv.org/src/2512.05954",
+    "title": "SymPyBench: A Dynamic Benchmark for Scientific Reasoning with Executable Python Code",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Important benchmark for evaluating scientific reasoning capabilities with executable code, enabling better model evaluation"
+  }
+]
