@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2512.07831v1",
+    "base_id": "2512.07831",
+    "tex_source_url": "https://arxiv.org/src/2512.07831",
+    "title": "UnityVideo: Unified Multi-Modal Multi-Task Learning for Enhancing World-Aware Video Generation",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Unified multi-modal approach to world-aware video generation with high practical applications and technical novelty"
+  },
+  {
+    "id": "2512.07828v1",
+    "base_id": "2512.07828", 
+    "tex_source_url": "https://arxiv.org/src/2512.07828",
+    "title": "The Adoption and Usage of AI Agents: Early Evidence from Perplexity",
+    "categories": ["cs.AI", "cs.HC"],
+    "selection_reason": "First empirical study of real-world AI agent adoption with immediate practical implications for AI deployment"
+  },
+  {
+    "id": "2512.07829v1",
+    "base_id": "2512.07829",
+    "tex_source_url": "https://arxiv.org/src/2512.07829", 
+    "title": "One Layer Is Enough: Adapting Pretrained Visual Encoders for Image Generation",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Counterintuitive finding about minimal adaptation requirements with wide practical applications for efficient model fine-tuning"
+  },
+  {
+    "id": "2512.07814v1",
+    "base_id": "2512.07814",
+    "tex_source_url": "https://arxiv.org/src/2512.07814",
+    "title": "Understanding Privacy Risks in Code Models Through Training Dynamics: A Causal Approach", 
+    "categories": ["cs.CR", "cs.LG"],
+    "selection_reason": "Novel causal approach to understanding privacy risks in code models, addressing critical deployment concerns"
+  }
+]
