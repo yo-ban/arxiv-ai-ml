@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2512.08931v1",
+    "base_id": "2512.08931",
+    "tex_source_url": "https://arxiv.org/src/2512.08931",
+    "title": "Astra: General Interactive World Model with Autoregressive Denoising",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Revolutionary advancement in world models with autoregressive denoising, highly impactful for AI systems requiring environmental understanding"
+  },
+  {
+    "id": "2512.08923v1",
+    "base_id": "2512.08923",
+    "tex_source_url": "https://arxiv.org/src/2512.08923",
+    "title": "Same Content, Different Answers: Cross-Modal Inconsistency in MLLMs",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "Critical reliability issue in multimodal LLMs that needs addressing for practical deployment of AI systems"
+  },
+  {
+    "id": "2512.08920v1",
+    "base_id": "2512.08920",
+    "tex_source_url": "https://arxiv.org/src/2512.08920",
+    "title": "OSMO: Open-Source Tactile Glove for Human-to-Robot Skill Transfer",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "High practical value for robotics applications with open-source approach enabling widespread adoption and skill transfer innovation"
+  },
+  {
+    "id": "2512.08892v1",
+    "base_id": "2512.08892",
+    "tex_source_url": "https://arxiv.org/src/2512.08892",
+    "title": "Toward Faithful Retrieval-Augmented Generation with Sparse Autoencoders",
+    "categories": ["cs.AI", "cs.CL"],
+    "selection_reason": "Addresses crucial faithfulness issues in RAG systems using sparse autoencoders, essential for improving AI system reliability"
+  }
+]
