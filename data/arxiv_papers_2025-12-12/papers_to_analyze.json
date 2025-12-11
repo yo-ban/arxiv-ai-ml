@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2512.09929v1",
+    "base_id": "2512.09929",
+    "tex_source_url": "https://arxiv.org/src/2512.09929",
+    "title": "Closing the Train-Test Gap in World Models for Gradient-Based Planning",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "Addresses fundamental train-test gap in model-based RL with practical implications for gradient-based planning systems"
+  },
+  {
+    "id": "2512.09924v1",
+    "base_id": "2512.09924",
+    "tex_source_url": "https://arxiv.org/src/2512.09924",
+    "title": "ReViSE: Towards Reason-Informed Video Editing in Unified Models with Self-Reflective Learning",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Novel approach combining reasoning capabilities with video editing, showing promise for practical multimodal applications"
+  },
+  {
+    "id": "2512.09920v1",
+    "base_id": "2512.09920",
+    "tex_source_url": "https://arxiv.org/src/2512.09920",
+    "title": "LISN: Language-Instructed Social Navigation with VLM-based Controller Modulating",
+    "categories": ["cs.RO", "cs.AI"],
+    "selection_reason": "Practical robotics application integrating VLMs for social navigation, highly applicable to real-world autonomous systems"
+  },
+  {
+    "id": "2512.09907v1",
+    "base_id": "2512.09907",
+    "tex_source_url": "https://arxiv.org/src/2512.09907",
+    "title": "VisualActBench: Can VLMs See and Act like a Human?",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Important evaluation benchmark for VLM capabilities, crucial for understanding current limitations and progress in vision-language models"
+  }
+]
