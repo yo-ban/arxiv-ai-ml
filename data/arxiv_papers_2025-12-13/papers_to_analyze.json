@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2512.10958v1",
+    "base_id": "2512.10958",
+    "tex_source_url": "https://arxiv.org/src/2512.10958",
+    "title": "WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World",
+    "categories": ["cs.AI", "cs.CV", "cs.LG"],
+    "selection_reason": "高い実用性を持つ自動運転評価手法で、実世界での駆動モデル評価という重要な課題に取り組んでいる"
+  },
+  {
+    "id": "2512.10957v1",
+    "base_id": "2512.10957",
+    "tex_source_url": "https://arxiv.org/src/2512.10957",
+    "title": "SceneMaker: Open-set 3D Scene Generation with Decoupled De-occlusion and Pose Estimation Model",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "分離されたオクルージョン解除とポーズ推定を用いた新規な3Dシーン生成手法で、高い実用性と新規性を持つ"
+  },
+  {
+    "id": "2512.10954v1",
+    "base_id": "2512.10954",
+    "tex_source_url": "https://arxiv.org/src/2512.10954",
+    "title": "Group Diffusion: Enhancing Image Generation by Unlocking Cross-Sample Collaboration",
+    "categories": ["cs.CV", "cs.LG", "cs.AI"],
+    "selection_reason": "クロスサンプル協調という新規なアプローチでディフュージョンモデルを改善する影響力の高い手法"
+  },
+  {
+    "id": "2512.10946v1",
+    "base_id": "2512.10946",
+    "tex_source_url": "https://arxiv.org/src/2512.10946",
+    "title": "ImplicitRDP: An End-to-End Visual-Force Diffusion Policy with Structural Slow-Fast Learning",
+    "categories": ["cs.AI", "cs.LG", "cs.RO"],
+    "selection_reason": "視覚・力覚統合ディフュージョンポリシーの新規手法で、ロボティクス分野の重要課題に実用的にアプローチ"
+  }
+]
