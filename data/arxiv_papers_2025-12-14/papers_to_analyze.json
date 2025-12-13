@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2512.10947v1",
+    "base_id": "2512.10947",
+    "tex_source_url": "https://arxiv.org/src/2512.10947",
+    "title": "Towards Efficient and Effective Multi-Camera Encoding for End-to-End Driving",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "自動運転の実用化に向けた効率的なマルチカメラエンコーディング手法。実際のシステムに高い応用可能性がある"
+  },
+  {
+    "id": "2512.10950v1",
+    "base_id": "2512.10950",
+    "tex_source_url": "https://arxiv.org/src/2512.10950",
+    "title": "E-RayZer: Self-supervised 3D Reconstruction as Spatial Visual Pre-training",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "自己教師あり3D再構成の新しいアプローチ。空間視覚事前訓練として実用性が高く、3D理解タスクに広く応用可能"
+  },
+  {
+    "id": "2512.10959v1",
+    "base_id": "2512.10959",
+    "tex_source_url": "https://arxiv.org/src/2512.10959",
+    "title": "StereoSpace: Depth-Free Synthesis of Stereo Geometry via End-to-End Diffusion in a Canonical Space",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "深度情報なしでステレオ幾何学を合成する新しい拡散モデル手法。AR/VR、ロボティクス分野への応用が期待される"
+  },
+  {
+    "id": "2512.10948v1",
+    "base_id": "2512.10948",
+    "tex_source_url": "https://arxiv.org/src/2512.10948",
+    "title": "ClusIR: Towards Cluster-Guided All-in-One Image Restoration",
+    "categories": ["cs.CV"],
+    "selection_reason": "オールインワン画像復元の新しい手法。実用的な画像処理アプリケーションに直接応用可能で、既存手法に対する明確な改善を提示"
+  }
+]
