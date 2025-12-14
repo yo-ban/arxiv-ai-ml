@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2512.10955v1",
+    "base_id": "2512.10955",
+    "tex_source_url": "https://arxiv.org/src/2512.10955",
+    "title": "Omni-Attribute: Open-vocabulary Attribute Encoder for Visual Concept Personalization",
+    "categories": ["cs.CV", "cs.LG"],
+    "selection_reason": "Novel open-vocabulary approach to attribute encoding with high practical utility for personalization systems"
+  },
+  {
+    "id": "2512.10949v1",
+    "base_id": "2512.10949",
+    "tex_source_url": "https://arxiv.org/src/2512.10949",
+    "title": "Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Comprehensive progressive investigation of reinforcement learning applications in 3D generation, addressing critical field developments"
+  },
+  {
+    "id": "2512.10956v1",
+    "base_id": "2512.10956",
+    "tex_source_url": "https://arxiv.org/src/2512.10956",
+    "title": "Empowering Dynamic Urban Navigation with Stereo and Mid-Level Vision",
+    "categories": ["cs.CV", "cs.AI"],
+    "selection_reason": "Practical impact for navigation systems combining stereo vision and mid-level processing for autonomous urban environments"
+  },
+  {
+    "id": "2512.10953v1",
+    "base_id": "2512.10953",
+    "tex_source_url": "https://arxiv.org/src/2512.10953",
+    "title": "Bidirectional Normalizing Flow: From Data to Noise and Back",
+    "categories": ["cs.LG", "cs.AI"],
+    "selection_reason": "Innovative bidirectional approach to normalizing flows with potential significant impact on generative modeling"
+  }
+]
