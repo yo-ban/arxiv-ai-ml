@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2512.20612v1",
+    "base_id": "2512.20612",
+    "tex_source_url": "https://arxiv.org/src/2512.20612",
+    "title": "Making Large Language Models Efficient Dense Retrievers",
+    "categories": ["cs.CL", "cs.IR"],
+    "selection_reason": "高実用性：LLMの検索効率向上という重要課題に取り組み、実システムに直接応用可能"
+  },
+  {
+    "id": "2512.20618v1",
+    "base_id": "2512.20618",
+    "tex_source_url": "https://arxiv.org/src/2512.20618",
+    "title": "LongVideoAgent: Multi-Agent Reasoning with Long Videos",
+    "categories": ["cs.AI", "cs.CV"],
+    "selection_reason": "新規性と実用性：マルチエージェントシステムと長時間動画理解の組み合わせという新しいアプローチ"
+  },
+  {
+    "id": "2512.20586v1",
+    "base_id": "2512.20586",
+    "tex_source_url": "https://arxiv.org/src/2512.20586",
+    "title": "Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent",
+    "categories": ["cs.AI", "cs.HC"],
+    "selection_reason": "高影響力：医療現場への直接的な応用が可能で、人命に関わる重要な分野での実用化"
+  },
+  {
+    "id": "2512.20578v1",
+    "base_id": "2512.20578",
+    "tex_source_url": "https://arxiv.org/src/2512.20578",
+    "title": "Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits",
+    "categories": ["cs.AI", "cs.LG"],
+    "selection_reason": "高影響力：AI安全性とLLMの信頼性向上に関する重要な研究で、実用的なAIシステム構築に不可欠"
+  }
+]
